@@ -2,6 +2,7 @@
 created: 1302923150
 title: Fixing exhaust / blower fan (ADDA Model AD2512LB)
 layout: post
+tags: [hardware]
 ---
 <p>I have a Li Lian v2100 plus case that i bought 5 years ago. Everything about the case screams quality except for the exhaust/blower fan( ADDA Model AD2512LB). The first blower that came with the case died about a year after I got the case. After looking for days I was unable to find a replacement. So for the next 3 years or so I ran with out it. Then I did another system build that produced a lot more heat than my last build so I was forced to try to find another replacement. I was lucky enough to find one on ebay for around 20 bucks. The replacement worked great for about a year till it started making a rattling noise. After trolling around looking for another replacement I decided to try to fix my self. Hopefully this might save you some of the trouble I went through.</p>
 <!--break-->

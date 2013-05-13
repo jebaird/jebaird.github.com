@@ -2,6 +2,7 @@
 created: 1275440794
 title: Data Registry, Simple Data Caching for JavaScript
 layout: post
+tags: [javascript]
 ---
 <p>In most of the web apps I have written I have had to track / cache simple. It might a jQuery selector or a small group of objects in an array.&nbsp; In some form or another I end up doing something like this to get / set data.</p>
 <pre class="brush: js">

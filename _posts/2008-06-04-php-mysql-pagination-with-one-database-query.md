@@ -2,6 +2,7 @@
 created: 1212642000
 title: Php MySQL pagination with one database query
 layout: post
+tags : [php, mysql]
 ---
 <p>Pagination is one of the simple features of a site if used right can be a great feature.&nbsp; For something very simple it seems to be a resource hog.&nbsp; For a while I have been looking for a way to paganate with out issuing two database queries.&nbsp; After some quick searching I could not find what I was looking for, so I came up a method that uses a one query + a sub-query.</p>
 <h4>Quick Review</h4>

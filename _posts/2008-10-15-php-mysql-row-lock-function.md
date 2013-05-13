@@ -2,6 +2,7 @@
 created: 1224050400
 title: PHP MySQL Row Lock function
 layout: post
+tags : [php, mysql]
 ---
 <p>I just started on a project that I knew was going to need some sort of data lock that would prevent 2 users from editing the same data at the same time.&nbsp; At first I thought that i would have to write a function that behaved like the C function flock().&nbsp; I ran across this forum post <a href="http://www.dmcinsights.com/phorum/read.php?13,30233,30260" target="_blank">http://www.dmcinsights.com/phorum/read.php?13,30233,30260</a> which I have to give credit to is the inspiration for the code below.</p>
 <p>In my setup I have a master include file that is included every time the script runs.&nbsp; It checks the session to see if a lock code has been assigned to the use.&nbsp; If so then it declares DB_LOCK_KEY as a constant</p>

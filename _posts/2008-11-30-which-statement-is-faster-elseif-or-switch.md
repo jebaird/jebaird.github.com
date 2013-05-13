@@ -2,6 +2,7 @@
 created: 1228111200
 title: which statement is faster, elseif() or switch() ?
 layout: post
+tags : [php, performance]
 ---
 <p>A couple of days ago I was out on a run and I starting wondering which statement was faster, a elseif() or a switch().&nbsp; I am a big fan of switch statements.&nbsp; I like how clean they look and its really easy to add a new condition to them.&nbsp; I also assumed that they were much quicker than elseif statements.&nbsp; So I set up this test to try to prove to myself that I was right.</p>
 <p>Here is the script that I used to test my theory. You can download this script and the script timer <a href="http://www.jebaird.com/upload/file/switch_elseif_benchmark.zip">here</a>.&nbsp; How it works its we have 3 loops. In the first loop we pick a value randomly out of our test data array.&nbsp; Then we loop through each statement type(switch and elseif) the value of timing_loops. While doing that we record the length of time it takes to compare the values.&nbsp; Then we record the tested values from our test data array and the method that was faster by how many microseconds.&nbsp; Its a pretty simple script, and my no means the best I have written.</p>

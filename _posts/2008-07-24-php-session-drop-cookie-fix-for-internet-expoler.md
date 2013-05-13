@@ -1,7 +1,8 @@
 --- 
 created: 1216962000
-title: php session drop cookie fix for Internet Expoler
+title: php session drop cookie fix for Internet Explorer
 layout: post
+tags : [php, session, Internet Explorer]
 ---
 <p>I was updating some code on dirtondirt.com.&nbsp; We had changed the way sessions/logins where used on the site. Everything worked great in Firefox.&nbsp; But we were getting complaints that it was randomly dropping logged in users using IE .&nbsp; I was was not able to recreate the issue so it was very hard to troubleshoot.  I believe that this method hacks around IE 4k size on disk issue (if the cookie is larger than 4k then IE has a tendency to drop it).After a couple hours of research I found these solutions.</p>
 <pre class="brush: php">

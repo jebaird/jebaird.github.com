@@ -2,6 +2,7 @@
 created: 1267811920
 title: Using Regular Expressions to Test Variable values
 layout: post
+tags: [javascript, performance]
 ---
 <p>When creating a function in javascript its a good idea to check object  the object&nbsp;type(s) of the arguments pasted to function.&nbsp; Lots of times you end up with code looking like this to do this</p>
 <pre class="brush: js">

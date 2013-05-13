@@ -2,6 +2,7 @@
 created: 1340987390
 title: CSS3 Pseudo Selectors are Broken When Using :not():nth-of-type()
 layout: post
+tags: [css ]
 ---
 <p>CSS3 pseudo selectors have a lot of power. Lately I have been playing around with :not(), :nth-child() and :nth-of-type(). One thing that I discovered while working on table row striping is that :nth-of-type() and :nth-child() ignore / override :not(). I was trying to stripe all of the odd rows in a table. That's easy to do with table tbody &gt; tr:nth-of-type(odd) &gt; td but I wanted the striping to ignore rows that had a class nostripe. So I thought that something like this would work table tbody &gt; tr:not(.nostripe):nth-of-type(odd) &gt; td . It didn't work I tried various selector combinations with no luck.</p>
 <ul>

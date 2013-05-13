@@ -2,6 +2,7 @@
 created: 1315922233
 title: Overflow menu a jQuery UI Widget
 layout: post
+tags: [jQuery UI, projects]
 ---
 <p>I decided to turn an earlier post idea (See <a href="http://jebaird.com/blog/using-jquery-create-overflow-menu-seen-google-wave">http://jebaird.com/blog/using-jquery-create-overflow-menu-seen-google-wave</a> ) into a jQuery UI widget. Its based on the google wave menu.</p>
 <ul>

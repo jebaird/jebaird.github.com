@@ -2,6 +2,7 @@
 created: 1253394310
 title: Get the fulll URL of the current page
 layout: post
+tags: [php]
 ---
 <p>Here is a simple function that will get the url of the current page.</p>
 <pre class="brush: php">

@@ -2,6 +2,7 @@
 created: 1248987696
 title: Before you move to Voice over IP have these bases covered
 layout: post
+tags : [Opinion]
 ---
 <p>EdgeCore just moved office buildings and I was put in charge of setting up the network and phone systems.  A couple of the guys recommended VoIP.  It sounded like a good idea at the time.  So I went along with the recommendation.  I got a quote from 8x8.com and everything looked good.  My next step was to call up the local utility company and get an internet connection that would support VoIP. The local utility company recommended the 8mb down and 1.5mb up for voice over IP for $80 a month.  I was told that many small businesses manager in the area use that many businesses in the area use the same connection to run VoIP.</p>
 <p>So I ordered the phones from 8x8.com.  I got the connection installed and setup the network and started testing.  Everything was looking good and working.  I did multiple tests with 3 or 4 clients on the network while simulating 2 calls at once.  The down and down connection speed looked good as well as the packet loss.  The only thing that concerned me was the Jitter.</p>

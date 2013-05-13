@@ -2,6 +2,7 @@
 created: 1301008734
 title: Changing the background color of a ckeditor instance
 layout: post
+tags: [ckeditor]
 ---
 <p>ckeditor is great once you get past the steep learning curve. Lately I have been looking for a way to change the background color of the editor / where you enter in the content on the fly. If you google &quot;ckeditor change background color&quot; you will find that most results suggest changing the background color using a theme stylesheet witch works for most cases. For my use case this wasn't going to fly. So after exploring my ckeditor instance in firebug I stumbled across this.</p>
 <p>Create your Instance</p>

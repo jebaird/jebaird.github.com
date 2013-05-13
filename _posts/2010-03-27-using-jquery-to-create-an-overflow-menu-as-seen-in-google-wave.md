@@ -2,6 +2,7 @@
 created: 1269723209
 title: "Using jQuery to create an overflow menu as seen in Google Wave "
 layout: post
+tags: [jQuery]
 ---
 <p>One of the features UI that Google wave uses is what I call the &quot;overflow&quot; menu. If you have a wave account you may have noticed that depending on your browser window size not all of the menu options are shown.&nbsp; The hidden options tucked away nicely in a drop down menu.&nbsp; On resizing your browser widow, options are added or removed from the menu.&nbsp; I thought that was pretty slick and thought it would be pretty easy to recreate the functionality using jQuery. So enough with the story on to the code.&nbsp;</p>
 <p><strong>Update:</strong> I converted this code over to a jQuery UI widget. Check it out <a href="http://jebaird.com/blog/overflow-menu-jquery-ui-widget">here</a></p>

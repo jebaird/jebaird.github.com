@@ -2,6 +2,7 @@
 created: 1284154970
 title: ShortScroll - A jQuery UI Google Wave style scroll bar
 layout: post
+tags: [jQuery UI, project]
 ---
 <p>I have never been a fan of custom scroll bars. &nbsp;Most of the time they are  just eye candy and end up getting in the way. &nbsp;That was until I saw the  scroll bar in Google Wave. &nbsp;I thought it was the best UI feature in the  whole app. &nbsp;It added functionality and style making much better than  the browser default scroll bar. &nbsp;So I thought that I would create a  scroll bar like it as a jQuery UI widget.</p>
 <!--break-->

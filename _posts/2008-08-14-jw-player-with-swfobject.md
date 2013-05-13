@@ -2,6 +2,7 @@
 created: 1218742149
 title: JW player with SWFObject
 layout: post
+tags : [JavaScript]
 ---
 <p>Recently i was working on a project that required a flash media player.&nbsp; I was trying to integrate <a href="http://www.jeroenwijering.com/?item=JW_FLV_Media_Player" target="_blank">JW FLV Media Player</a> using <a href="http://blog.deconcept.com/swfobject/" target="_blank">SWFObject</a>.&nbsp; After losing a few hours of my life trying to pass a variable in a query string to a php script that generated a XML play list, I stumbled upon/discovered this solution.</p>
 <p>the JW FLV Media Player documentation currently reads like this</p>

@@ -2,6 +2,7 @@
 created: 1351868996
 title: Useful Plugins for Aptana Studio 3
 layout: post
+tags: [aptana studio]
 ---
 <p>I  have been using Aptana Studio 3 for the past few years as my primary  IDE. But there are been features / plugins that I have wanted to  integrate into my setup. Since Aptana is based off of eclipse I thought  that finding plugins would be very easy. Turns out that I should have  been searching for Eclipse plugins instead of Aptana plugins. Here is my  plugin list / setup for Aptana.</p>
 <p>In  case you didn&rsquo;t know, you can install new software in Aptana by going  to; Help &gt; Install new software &gt; and clicking on the add button</p>

@@ -2,6 +2,7 @@
 created: 1250267095
 title: Clearing a Firefox Session Manually
 layout: post
+tags: [firefox]
 ---
 <p>Every once in a while I run in to a small issue with Firefox not loading correctly when i save my session.&nbsp; It seems to happen when I have multiple tabs open that have lots of JavaScript running in them.&nbsp; In my case I couldn't access the GUI like in the method shown <a href="http://webtoolsandtips.com/firefox/firefox-restore-session/" target="_blank">here</a> or <a target="_blank" href="http://kb.mozillazine.org/Session_Restore">here</a>.&nbsp; I had to manually delete the session file in my Firefox profile. Here's how to do it.</p>
 <ul>

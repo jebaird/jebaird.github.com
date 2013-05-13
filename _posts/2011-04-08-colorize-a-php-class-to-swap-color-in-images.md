@@ -2,6 +2,7 @@
 created: 1302302174
 title: Colorize -  a PHP class to swap color in images
 layout: post
+tags: [php]
 ---
 <p>Colorize is a simple PHP class that allows you to supply template / source images and easily replace color(s) in them and save them as copies. It could be useful if you are building a theme generator for a site or framework. Or if you have to replace the same colors in images with another color.</p>
 <!--break-->

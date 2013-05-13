@@ -1,7 +1,8 @@
 --- 
 created: 1310516308
 title: formConditons - jQuery UI widget that maikes building dynamic forms easier
-layout: post
+layout: post,
+tags: [jQuery UI, project, forms]
 ---
 <p>Creating  dynamic forms can be time consuming. Hiding one field based on another  field value is pretty easy. But when you have to set up a form with many  inputs showing and hiding based on may different input values your code  can get ugly really fast. formCondtions plugin attempts to make your  life easier by providing a standard api to get your form code under  control.</p>
 <!--break-->

@@ -2,6 +2,7 @@
 created: 1270837506
 title: "Internet Explorer Bug: readyState on empty cache slow to == complete"
 layout: post
+tags: [Internet Explorer, javascript]
 ---
 <p>Recently I ran in to a small bug in Internet Explorer where on an empty cache it would take minutes for script.readyState to equal 'complete' after the script had been successfully loaded&nbsp; from the server. But if you refreshed the page , script.readyState would equal complete on page load.</p>
 <pre class="brush: js">

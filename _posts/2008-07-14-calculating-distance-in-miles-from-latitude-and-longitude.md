@@ -2,6 +2,7 @@
 created: 1216098000
 title: Calculating Distance in Miles from Latitude and Longitude
 layout: post
+tags : [php, mysql, geolocation]
 ---
 <p>Finding good examples for Calculating Distance in Miles from Latitude and Longitude Using Mysql and PHP wasn&rsquo;t as easy as I thought it would be.  I thought I would compile the working quires and the functions that I wrote/found.</p>
 <p>I found a very good paper on the topic at Scribd.  I used one the the examples from this paper.</p>

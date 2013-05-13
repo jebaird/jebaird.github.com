@@ -2,6 +2,7 @@
 created: 1215838800
 title: PHP Countires, States, Provinces and Territories Array
 layout: post
+tags : [php]
 ---
 <p>A couple of projects ago I needed the ability to have international users.  I looked for some php functions that would make the task of registering users a little easier. I found some html lists and turned them into php functions that return arrays</p>
 <pre class="brush: php">

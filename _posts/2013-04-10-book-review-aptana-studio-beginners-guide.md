@@ -2,6 +2,7 @@
 created: 1365605497
 title: "Book Review: Aptana Studio Beginner's Guide"
 layout: post
+tags: [book review, aptana studio ]
 ---
 <p><a href="http://www.packtpub.com/aptana-studio-3-integrated-development-environment-beginners-guide/book?source=jebaird.com" target="_blank">Aptana Studio Beginner's Guide by Thomas Deuling</a> covers everything in Aptana Studio from installation to setting up the built in collaborative features. Having used Aptana Studio for the past few years I still found this book helpful. It would have been great to have on my shelf when I started using Aptana. As you many have found out there isn't a lot the web pertaining to getting Aptana setup.</p>
 <p>I think Chapter 2, &quot;Basics and How to use Perspectives and Views&quot; is the one that I gleaned the most from. I had never thought about why you would want to use / setup perspectives. It turns out that setting up a view / perspective can greatly effect your project workflow and help divide up similar tasks / projects.</p>
