@@ -1,0 +1,15 @@
+
+exclude: ["README.md", "LICENSE.md", "TODO.md", "build", "test"]
+
+
+markdown: rdiscount
+
+owner_name: "*your name*"
+owner_page: "*your homepage*"
+owner_mail: "*your email*"
+
+title: "*your site's title*"
+slogan: "*your site's slogan*"
+url: "/"
+
+paginate: 7
