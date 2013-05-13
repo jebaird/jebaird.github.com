@@ -1,0 +1,265 @@
+/* base stles for new version 
+ 
+include normalize.css
+
+*/
+
+/*
+ * over ride skeleton
+ */
+body .container{
+	margin: 0px;
+}
+
+
+html {
+	background-attachment: fixed;
+	
+	background-image: -moz-linear-gradient(left,  #fff 60%, rgba(174,172,180,1) 100%); /* FF3.6+ */
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(60%,rgba(255,244,244,1)), color-stop(100%,rgba(174,172,180,1))); /* Chrome,Safari4+ */
+	background-image: -webkit-linear-gradient(left,  rgba(255,244,244,1) 60%,rgba(174,172,180,1) 100%); /* Chrome10+,Safari5.1+ */
+	background-image: -o-linear-gradient(left,  rgba(255,244,244,1) 60%,rgba(174,172,180,1) 100%); /* Opera 11.10+ */
+	background-image: -ms-linear-gradient(left,  rgba(255,244,244,1) 60%,rgba(174,172,180,1) 100%); /* IE10+ */
+	background-image: linear-gradient(left,  rgba(255,244,244,1) 60%,rgba(174,172,180,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff4f4', endColorstr='#aeacb4',GradientType=1 ); /* IE6-9 */
+}
+
+body{
+	font-family:  Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+}
+
+a {
+	color: #0059E0;
+	cursor: pointer;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+#header-graphic{
+	position: absolute;
+	z-index: 1;
+	
+	-webkit-transform: rotateX(180deg); 
+    -moz-transform: rotateX(180deg); 
+    -ms-transform: rotateX(180deg); 
+    -o-transform: rotateX(180deg); 
+    transform: rotateX(180deg);
+
+}
+
+
+
+
+
+.header {
+	position: relative;
+	z-index: 10;
+	top: 10px;
+	padding: .4em 1em;
+	
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+/*header nav*/
+.header nav{
+	display: inline-block;
+	float: left;
+	margin-top: 1em;
+}
+.header nav ul{
+	padding:0px;
+	margin: 0px;
+}
+
+.header nav li{
+	display: inline-block;
+	float: left;
+	padding: 0px 0.40em;
+	font-size: 1.3em;
+}
+.header nav a{
+	text-decoration: none;
+	color: #333;
+	text-shadow: 1px 1px 1px rgba(0,0,0, .25);
+}
+.header nav a:hover{
+		text-shadow: 1px 1px 1px rgba(0,0,0, .75);	
+}
+
+
+/*wraps all*/
+.page{
+	z-index: 100;
+ 
+}
+
+/*
+ * logo style / name
+ */
+.logo{
+	display: inline-block;
+	float: left;
+	padding-right: 25px;
+}
+.logo h1{
+	margin: 0px;
+	display: inline;
+	font-size: 2.5em;
+}
+.logo a {
+	text-decoration: none;
+}
+.logo h1 .firstname{
+	font-weight: lighter;
+	color: #000;
+	
+}
+.logo h1 .lastname{
+	color: #A1D53E;
+	font-weight: lighter;
+}
+
+
+
+
+/*
+ * page-body all page content is wrapped by this elements
+ */
+.page-body {
+	line-height: 2;
+}
+
+
+
+/*
+ * 
+ * article list
+ */
+
+
+.articles .article{
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #E4E4E7;
+}
+.articles h2,
+.articles h2 a {
+    margin-bottom: 0em;
+    color: #6A6677;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+/*
+ * posted date
+ */
+.articles .meta{
+    margin-bottom: .5em;
+    font-size: .9em;
+    color: #696575;
+    line-height: 1em;
+}
+
+
+.articles .tags {
+    margin: 0px !important;
+    padding: 0px !important;
+    display: inline;
+    
+}
+.articles  .tags li {
+	display: inline-block;
+	margin-left: 0.5em;
+}
+
+
+/*show on view list*/
+.page-body .view-content .node .links{
+    display: inline;
+}
+
+.page-body div.links, .page-body ul.links{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.page-body ul.pager li, .page-body ul.pager li a{
+    
+    font-size: 1.2em;
+}
+
+
+footer{
+	padding: 2em;
+}
+
+/*
+ * 
+ * ######## sidebar 
+ * 
+ */
+
+
+.sidebar {
+	line-height: 1.7;
+	font-size: .9em;
+/*	makes it more readable in a the gray gradient*/
+	text-shadow: 0px 0px 1px rgba( 255, 255, 255, 0.7 )
+}
+
+.sidebar h3{
+	    border-bottom: 1px solid rgba(255,255,255,.4);
+	    text-transform: capitalize;
+}
+
+
+.sidebar ul{
+    list-style: none outside none !important;
+    padding: 0px;
+    margin: 0px;
+}
+.sidebar li{
+    padding: 0px 0px .3em 2em;
+    margin:0px 0px .8em 0px;
+    list-style: none outside none !important;
+    
+    background-repeat: no-repeat;
+    background-position: left .1em; 	
+    
+/*    make this list markers the right size */
+    -webkit-background-size: 1.4em 1.4em;
+    background-size: 1.4em 1.4em;
+    
+    background-image: url('/css/img/li_blue.png');
+}
+
+.sidebar li:nth-of-type(odd){
+   background-image: url('/css/img/li_green.png');
+}
+
+/*
+ * pager
+ */
+
+.pagination{
+	list-style: none;
+	padding: 0px;
+	font-size: 1.2em;
+}
+.pagination li {
+  display: inline;
+}
+.pagination li a{
+	padding: 5px 7px;
+}
+.pagination li a:hover{
+	background: rgba(0,0,0,0.3);
+	color: #fff;
+	border-radius: 4px;
+}
+.pagination .pagination-next{
+	float: right;
+} 
