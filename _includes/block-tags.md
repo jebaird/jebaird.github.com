@@ -13,12 +13,12 @@
 	
 	For more Jekyll widgets, see <http://www.github.com/NetzwergX/jekyll-template-toolkit>.
 {% endcomment %}
-<section>
+<section class="tags">
 	<h3>Tags</h3>		
-	<ul class="tagCloud">
+	<ul>
 	   {% for tag in site.tags %}      
 	   <li>
-	   	<a href="/tag/#{{ tag | first | cgi_encode }}">
+	   	<a href="/tag/{{ tag | first | cgi_encode }}/">
 		{{ tag | first }}</a>
 		{% unless forloop.last %} {% endunless %}
 	</li>
