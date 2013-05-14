@@ -1,49 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>{{ page.title }} &ndash; jebaird.com &ndash; </title>
-		<link rel="dns-prefetch" href="//jslogger.com" />
-		<link rel="dns-prefetch" href="//i.creativecommons.org" />
-		<link rel="dns-prefetch" href="//google-analytics.com" />
-		<link rel="dns-prefetch" href="//platform.twitter.com" />
-
-		<link rel="stylesheet" href="/css/normalize.css" type="text/css"/>
-		<link rel="stylesheet" href="/css/skeleton.css" type="text/css"/>
-		<link rel="stylesheet" href="/css/layout.css" type="text/css"/>
-
-		<!--
-		<script type="text/javascript">document.write('<script type="text/javascript" src="' + ('https:'==document.location.protocol?'https://':'http://c.') + 'jslogger.com/jslogger.js"><\/script>');</script>
-		<script type="text/javascript">window.jslogger = new JSLogger();</script> -->
-
-		<body>
-			<canvas id="header-graphic" width="1000" height="100"></canvas>
-			<div class="row header">
-				<div class="logo" class="F2">
-					<h1><a href="/"><span class="firstname">Jesse</span> <span class="lastname">Baird</span></a></h1>
-
-				</div>
-				<nav>
-					<ul>
-						<li>
-							<a href="/">Home</a>
-						</li>
-						<li>
-							<a href="/tag/projects/">Projects</a>
-						</li>
-						<li>
-							<a href="/about/">About</a>
-						</li>
-						<li>
-							<a href="/contact/">Contact</a>
-						</li>
-					</ul>
-
-				</nav>
-
-			</div>
-
-			<div class="container page">
-
+{% include layout-header.html %}
+<div class="container page">
 				<div class="row">
 					<div class="eleven columns page-body">
 						<h1>{{page.title}}</h1>
@@ -62,25 +18,6 @@
 					</div><!--end of sidebar-->
 
 				</div>
-
-				<footer>
-					{% include footer.md %}
-				</footer>
 			</div>
 
-			<script type="text/javascript">
-				var _gaq = _gaq || [ ];
-				_gaq.push( [ '_setAccount', 'UA-4633807-1' ] );
-				_gaq.push( [ '_trackPageview' ] );
-
-				( function( ) {
-					// var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-					// ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-					// var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-				} )( );
-			</script>
-			<script type="text/javascript" src="/js/jebaird.canvas-image-randomizer.js"></script>
-			<script type="text/javascript" src="/js/scripts.js"></script>
-
-		</body>
-</html>
+{% include layout-footer.html %}
