@@ -35,6 +35,10 @@ a {
 	cursor: pointer;
 }
 
+img {
+	border-radius: 4px;
+}
+
 a:hover{
 	text-decoration: none;
 }
@@ -196,6 +200,8 @@ footer{
 	text-shadow: 0px 0px 1px rgba( 255, 255, 255, 0.7 )
 }
 
+
+
 .sidebar h3{
 	border-bottom: 1px solid rgba(255,255,255,.4);
 	text-transform: capitalize;
@@ -230,6 +236,10 @@ footer{
  */
 .sidebar .tags li{
 	display: inline-block;
+}
+
+.sidebar .about img {
+	margin: 0px 1em 0.5em 0px;
 }
 
 /*

@@ -30,21 +30,14 @@
 			var instance = this;
 			
 			var w = image.width * .50,
-				h = image.height * .50;
+				h = image.height * .50,
 				
-				var maxX = target.width - image.width,
-					minX =  -w + 10,
-					//175 is the base line
-					maxY = target.height,
-					minY = 0,
-					
-					X = instance.rand( minX, maxX),
-					
-					Y = instance.rand( minY, maxY);
-				//if we're far enought over recalculate Y
-				// if( X > 950 ){
-					// Y = instance.rand( 0, target.height - image.height)
-				// }
+				maxX = target.width - image.width,
+				minX =  -w + 10,
+				maxY = target.height,
+				minY = 0,
+				X = instance.rand( minX, maxX),
+				Y = instance.rand( minY, maxY);
 			drawingContext.drawImage(image, X, Y );
 		
 		}
