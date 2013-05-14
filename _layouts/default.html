@@ -5,6 +5,7 @@
 		<link rel="dns-prefetch" href="//jslogger.com" />
 		<link rel="dns-prefetch" href="//i.creativecommons.org" />
 		<link rel="dns-prefetch" href="//google-analytics.com" />
+		<link rel="dns-prefetch" href="//platform.twitter.com" />
 
 		<link rel="stylesheet" href="/css/normalize.css" type="text/css"/>
 		<link rel="stylesheet" href="/css/skeleton.css" type="text/css"/>
@@ -41,17 +42,18 @@
 			<div class="container page">
 
 				<div class="row">
-					<div class="twelve columns page-body">
+					<div class="eleven columns page-body">
 						<h1>{{page.title}}</h1>
 
 						{{ content }}
 					</div>
 					<!-- end of body -->
 
-					<div class="omega offset-by-thirteen sidebar">
+					<div class="omega offset-by-eleven sidebar">
 						{% include block-quick-about.md %}
 
 						{% include block-recent-posts.md %}
+						{% include block-tweets.html %}
 						{% include block-tags.md %}
 
 					</div><!--end of sidebar-->
