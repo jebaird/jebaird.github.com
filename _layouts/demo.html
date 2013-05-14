@@ -1,0 +1,12 @@
+{% include layout-header.html %}
+<div class="container page">
+
+	<div class="sixteen columns">
+		<h1>{{page.title}}</h1>
+		<p><a href="{{ page.post-url }}">Return to article</a> | <a href="{{ page.git-url }}">View on github</a></p>
+		{{ content }}
+	</div>
+
+</div>
+
+{% include layout-footer.html %}
