@@ -1,0 +1,65 @@
+---
+layout: demo
+title: Overflow menu demo
+page-class: page-overflowmenu
+post-url: /2011/09/13/overflow-menu-a-jquery-ui-widget.html
+git-url: https://github.com/jebaird/jquery-overflow-menu
+---
+
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+
+		
+		<script type="text/javascript" src="js/jb.overflow.menu.js"></script>
+		
+		<link type="text/css" rel="stylesheet" href="css/demo.css" />
+		<link type="text/css" rel="stylesheet" href="css/jb.overflow.menu.css" />
+
+<p>If you see seven menu options, resize your browser window till one of the them is hidden. You will see the more text turn from black/gray depending of if there is a menu options hidden in the overflow menu. Click on the more to view the options.</p></div>
+		
+		<p> For this to work you have to set a height for the ul, or have </p>
+		
+		<nav id="target" class="jb-overflowmenu">
+			<ul class="">
+				<li class="item"><a href="javascript://">option one</a></li>
+		        <li class="item"><a href="javascript://">option two</a></li>
+		        <li class="item"><a href="javascript://">option three</a></li>
+		        <li class="item"><a href="javascript://">option four</a></li>
+		        <li class="item"><a href="javascript://">option five</a></li>
+		        <li class="item"><a href="javascript://">option six</a></li>
+		        <li class="item"><a href="javascript://">option seven</a></li>
+			</ul>
+			
+		</nav>
+		
+		
+		<br>
+		<a class="destroy" href="javascript://"> destroy</a> 
+		
+		</div>
+		
+		
+		<script type="text/javascript">
+			$( document ).ready(function(){
+				var target = $('#target').overflowmenu({
+					change: function( e, ui ){
+						var handle = ui.container.find('.jb-overflowmenu-menu-secondary-handle');
+						if( ui.secondary.children().length ){
+							handle.css('color', 'black')
+						}else{
+							handle.css('color', 'gray')
+						}
+						console.log( 'change', ui );
+					},
+					open: function( e, ui ){
+						console.log( 'open' )
+					}
+				});
+				
+				$('.destroy').click(function(){
+					target.overflowmenu('destroy');
+					return false;
+				})
+			})
+			
+		</script>
