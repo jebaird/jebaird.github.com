@@ -6,7 +6,7 @@ tags: [jQuery UI, projects]
 ---
 <p>I decided to turn an earlier post idea (See <a href="http://jebaird.com/blog/using-jquery-create-overflow-menu-seen-google-wave">http://jebaird.com/blog/using-jquery-create-overflow-menu-seen-google-wave</a> ) into a jQuery UI widget. Its based on the google wave menu.</p>
 <ul>
-    <li><a target="_blank" href="/dev/project/jb-overflow-menu/demo.htm">view the demo</a></li>
+    <li><a target="_blank" href="/demos/overflowmenu/">view the demo</a></li>
     <li><a target="_blank" href="https://github.com/jebaird/jquery-overflow-menu">GitHub repo</a></li>
 </ul>
 <h3>What It Does</h3>

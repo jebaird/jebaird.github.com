@@ -7,7 +7,7 @@ tags: [jQuery UI, projects]
 <p>Being able to re-order table columns has been something that I have always wanted to do. Because of a tables' markup you can't just use the jQuery UI sortables widget. After seeing<a href="http://akottr.de/dragtable" target="_blank"> akottr's dragtable</a> plugin I was inspired to create a&nbsp; jQuery UI widget similar to his plugin.&nbsp; I set out with a few design goals; Flexible API, very responsive column drag(works with well with tables that have +1000 cells) and a easy to customize css framework.</p>
 <!--break-->
 <ul>
-    <li><a href="/dev/project/dragtable/demo.htm" target="_blank">View the demo</a></li>
+    <li><a href="/demos/dragtable/">View the demo</a></li>
     <li><a target="_blank" href="https://github.com/jebaird/dragtable">GitHub Repo</a></li>
     <li><a href="https://github.com/jebaird/dragtable/issues?direction=desc&amp;sort=created&amp;state=open">Submit / View issues</a></li>
 </ul>

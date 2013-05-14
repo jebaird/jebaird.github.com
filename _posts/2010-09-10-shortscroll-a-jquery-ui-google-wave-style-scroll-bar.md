@@ -6,9 +6,8 @@ tags: [jQuery UI, projects]
 ---
 <p>I have never been a fan of custom scroll bars. &nbsp;Most of the time they are  just eye candy and end up getting in the way. &nbsp;That was until I saw the  scroll bar in Google Wave. &nbsp;I thought it was the best UI feature in the  whole app. &nbsp;It added functionality and style making much better than  the browser default scroll bar. &nbsp;So I thought that I would create a  scroll bar like it as a jQuery UI widget.</p>
 <!--break-->
-<p><img width="232" height="261" align="right" src="/userfiles/image/widget%20test_1284162988268.png" alt="ShortScroll in action" /></p>
 <ul>
-    <li><a href="http://jebaird.com/dev/jquery-shortscroll/demo.htm">view a demo</a></li>
+    <li><a href="/demos/shortscroll/">view a demo</a></li>
     <li><a href="http://github.com/jebaird/ShortScroll" target="_blank">Git Hub repo</a></li>
 </ul>
 <p>If you're going to support Internet Explorer and care about eye candy, plan on creating your own background images.&nbsp; I'm using css3 background gradients to do all of the fancy background stuff .</p>
