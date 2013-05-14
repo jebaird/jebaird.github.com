@@ -163,7 +163,9 @@ a:hover{
     line-height: 1em;
 }
 
-
+.articles .meta .label {
+	padding-left: 0.5em;
+}
 .articles .tags {
     margin: 0px !important;
     padding: 0px !important;
@@ -173,22 +175,6 @@ a:hover{
 .articles  .tags li {
 	display: inline-block;
 	margin-left: 0.5em;
-}
-
-
-/*show on view list*/
-.page-body .view-content .node .links{
-    display: inline;
-}
-
-.page-body div.links, .page-body ul.links{
-    padding: 0px !important;
-    margin: 0px !important;
-}
-
-.page-body ul.pager li, .page-body ul.pager li a{
-    
-    font-size: 1.2em;
 }
 
 
@@ -211,8 +197,8 @@ footer{
 }
 
 .sidebar h3{
-	    border-bottom: 1px solid rgba(255,255,255,.4);
-	    text-transform: capitalize;
+	border-bottom: 1px solid rgba(255,255,255,.4);
+	text-transform: capitalize;
 }
 
 
@@ -238,6 +224,12 @@ footer{
 
 .sidebar li:nth-of-type(odd){
    background-image: url('/css/img/li_green.png');
+}
+/*
+ * tags list
+ */
+.sidebar .tags li{
+	display: inline-block;
 }
 
 /*
