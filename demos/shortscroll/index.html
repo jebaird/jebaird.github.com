@@ -1,0 +1,137 @@
+---
+layout: demo
+title: shortscroll demo
+page-class: page-shortscroll
+post-url: /2010/09/10/shortscroll-a-jquery-ui-google-wave-style-scroll-bar.html
+git-url: https://github.com/jebaird/ShortScroll
+---
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+  	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+  	
+  	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/smoothness/jquery-ui.css" type="text/css" />
+  	<link rel="stylesheet" href="css/jquery.jb.shortscroll.css" />
+  
+  	<script type="text/javascript" src="js/mousewheel.js"></script>
+  	<script type="text/javascript" src="js/jquery.jb.shortscroll.js"></script>
+  
+
+	<title>widget test</title>
+    
+    <style type="text/css">
+    .ui-icon-triangle-1-s {
+        background-position:-65px -16px;
+    }
+
+    .target{
+        height: 401px;
+        width: 650px;
+        border: 1px solid black;
+    }
+
+    .content{
+        padding: 10px;
+    }
+    </style>
+   
+
+<p>a custom scroll bar by Jesse Baird </p>
+<div class="target">
+
+
+
+
+<h1>This is a demo</h1>
+
+<p>
+	Lorem ipsum omnium omnesque persecuti pri eu, ex eos albucius apeirian dignissim. Ei ludus veniam sit, mel fugit vulputate no. Ad sonet delenit tibique sea. Has voluptua cotidieque referrentur in, vim no mandamus theophrastus.
+</p>
+<p>
+	Rebum ludus verterem an sit. Usu soleat placerat inimicus no, in liber debitis consulatu usu. Cetero vivendum reprimique eam at. Ad mazim elaboraret est, modus detraxit adolescens ad has. Mentitum atomorum sit id, ex aperiam erroribus ius. Ea has aliquyam honestatis liberavisse.
+</p>
+
+<p>
+	Sit legere dissentiunt ne, vis officiis contentiones ei, eam munere commodo pertinax ut. Duo novum aliquam periculis te, et soluta fabulas pri, id feugiat admodum ius. Ad dico expetendis dissentiet qui, per epicurei expetenda ut. In tota copiosae efficiantur nec, assum fabulas scripserit et pri. Eos an dicat corrumpit, nonumy viderer ius eu.
+</p>
+<hr />
+<h1>Important Employees</h1>
+	<table id="one">
+		<thead class="test">
+			<tr>
+				<th>ID</th>
+				<th>first name</th>
+				<th>last name</th>
+				<th>phone number</th>
+				<th>team color</th>
+				<th>salary</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>10234</td>
+				<td>John</td>
+				<td>Smith</td>
+				<td>555-555-5555</td>
+				<td>orange</td>
+				<td>$2.00</td>
+			</tr>
+			<tr>
+				<td>102288</td>
+				<td>Jane</td>
+				<td>Smith</td>
+				<td>555-445-5555</td>
+				<td>purplue</td>
+				<td>$1000.00</td>
+			</tr>
+			<tr>
+				<td>11534</td>
+				<td>Ben</td>
+				<td>Dover</td>
+				<td>555-443-5555</td>
+				<td>pink</td>
+				<td>$200.00</td>
+			</tr>
+			<tr>
+				<td>2153</td>
+				<td>Goldy</td>
+				<td>Dilgger</td>
+				<td>555-555-2562</td>
+				<td>blue</td>
+				<td>$200.40</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Steve</td>
+				<td>Southwest</td>
+				<td>554-555-3562</td>
+				<td>orange</td>
+				<td>$710.40</td>
+			</tr>
+		</tbody>
+	</table>
+<hr />
+
+<p>
+	Lorem ipsum omnium omnesque persecuti pri eu, ex eos albucius apeirian dignissim. Ei ludus veniam sit, mel fugit vulputate no. Ad sonet delenit tibique sea. Has voluptua cotidieque referrentur in, vim no mandamus theophrastus.
+</p>
+<p>
+	Rebum ludus verterem an sit. Usu soleat placerat inimicus no, in liber debitis consulatu usu. Cetero vivendum reprimique eam at. Ad mazim elaboraret est, modus detraxit adolescens ad has. Mentitum atomorum sit id, ex aperiam erroribus ius. Ea has aliquyam honestatis liberavisse.
+</p>
+
+<p>
+	Sit legere dissentiunt ne, vis officiis contentiones ei, eam munere commodo pertinax ut. Duo novum aliquam periculis te, et soluta fabulas pri, id feugiat admodum ius. Ad dico expetendis dissentiet qui, per epicurei expetenda ut. In tota copiosae efficiantur nec, assum fabulas scripserit et pri. Eos an dicat corrumpit, nonumy viderer ius eu.
+</p>
+
+</div>
+
+</div>
+
+
+
+
+<script type="text/javascript">
+    
+    $(document).ready(function(){
+       $('.target').shortscroll();
+	});
+</script>
