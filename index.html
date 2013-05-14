@@ -22,7 +22,7 @@ page-class: page--home
              	 {{ endif }}
              </div>
             
-              {{ post.content | strip_html | truncatewords:50}}<br>
+              {{ post.content | strip_html | truncatewords:50}}
             <a href="{{ post.url }}">Read more</a>
         </article>
         {% endfor %}
