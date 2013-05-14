@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Who 
+title: About Jesse Baird 
 permalink: /about/
 ---
 
