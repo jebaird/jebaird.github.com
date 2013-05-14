@@ -21,11 +21,8 @@
 			'#88C90A',
 			'#585365',
 			'#CCCBD1'
-			
 		],
-		numOfImg: 50
-
-		,
+		numOfImg: 50,
 		imgPlacement: function(drawingContext, target, image){
 			var instance = this;
 			
@@ -38,6 +35,7 @@
 				minY = 0,
 				X = instance.rand( minX, maxX),
 				Y = instance.rand( minY, maxY);
+				
 			drawingContext.drawImage(image, X, Y );
 		
 		}
