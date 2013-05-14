@@ -51,7 +51,11 @@
 
 
 drawHeader();
-
-
+//debounced
+var resizeTimer = null;
+window.onresize = function(){
+	clearTimeout( resizeTimer );
+	resizeTimer = setTimeout( drawHeader, 300 );
+}
 
 })();
