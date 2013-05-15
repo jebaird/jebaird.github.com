@@ -4,12 +4,12 @@ exclude: ["README.md", "LICENSE.md", "TODO.md", "build", "test"]
 
 markdown: rdiscount
 
-owner_name: "*your name*"
-owner_page: "*your homepage*"
-owner_mail: "*your email*"
+owner_name: "Jesse Baird"
+owner_page: "jebaird.com"
+owner_mail: "jebaird@gmail.com"
 
-title: "*your site's title*"
-slogan: "*your site's slogan*"
+title: "jebaird.com"
+slogan: "the personal bog of Jesse Baird"
 url: "/"
 
 paginate: 7
