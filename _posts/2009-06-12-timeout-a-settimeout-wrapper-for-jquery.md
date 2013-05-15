@@ -2,7 +2,7 @@
 created: 1244821018
 title: timeout, a setTimeout wrapper for jQuery
 layout: post
-tags : [Javascript, jQuery]
+tags : [JavaScript, jQuery]
 ---
 <p>Timeout is a simple jQuery plugin that allows you to delay the execution of code for a certain number of milliseconds.  It works like the jQuery delay plugin http://www.evanbot.com/article/jquery-delay-plugin/4 which i didn't know existed at the time I wrote this plugin.</p>
 <p><strong>plugin code</strong></p>

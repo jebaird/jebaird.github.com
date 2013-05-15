@@ -1,0 +1,6 @@
+.page-tag .articles {
+	opacity: 0.2;
+}
+.page-tag .articles.active {
+	opacity: 1;
+}

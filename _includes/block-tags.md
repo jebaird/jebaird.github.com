@@ -18,7 +18,7 @@
 	<ul>
 	   {% for tag in site.tags %}      
 	   <li>
-	   	<a href="/tag/{{ tag | first | cgi_encode }}/">
+	   	<a href="/tag/#{{ tag | first | cgi_encode }}">
 		{{ tag | first }}</a>
 		{% unless forloop.last %} {% endunless %}
 	</li>
