@@ -24,15 +24,13 @@
 		],
 		numOfImg: 50,
 		imgPlacement: function(drawingContext, target, image){
-			var instance = this;
-			
 			var w = image.width * .50,
 				h = image.height * .50,
 				
 				maxX = target.width - image.width,
-				minX =  -w + 10,
-				maxY = target.height,
-				minY = 0,
+				minX =  -w + -15,
+				maxY = target.height - image.width,
+				minY = -h + -30,
 				X = instance.rand( minX, maxX),
 				Y = instance.rand( minY, maxY);
 				

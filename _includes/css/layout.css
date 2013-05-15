@@ -40,18 +40,7 @@ a:hover{
 #header-graphic{
 	position: absolute;
 	z-index: 1;
-	
-	-webkit-transform: rotateX(180deg); 
-    -moz-transform: rotateX(180deg); 
-    -ms-transform: rotateX(180deg); 
-    -o-transform: rotateX(180deg); 
-    transform: rotateX(180deg);
-
 }
-
-
-
-
 
 .header {
 	position: relative;
@@ -89,7 +78,7 @@ a:hover{
 }
 
 .page-home .header .nav-item-home a,
-.page-tag-projects .header .nav-item-projects a,
+.page-tag .header .nav-item-projects a,
 .page-about .header .nav-item-about a,
 .page-contact .header .nav-item-contact a{
 	color: #90CD1A;
