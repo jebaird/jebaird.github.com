@@ -31,8 +31,8 @@
 				minX =  -w + -15,
 				maxY = target.height - image.width,
 				minY = -h + -30,
-				X = instance.rand( minX, maxX),
-				Y = instance.rand( minY, maxY);
+				X = this.rand( minX, maxX),
+				Y = this.rand( minY, maxY);
 				
 			drawingContext.drawImage(image, X, Y );
 		
