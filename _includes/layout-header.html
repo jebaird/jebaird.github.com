@@ -1,36 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="{{ page.page-class }}">
 	<head>
 		<title>{{ page.title }} &ndash; jebaird.com &ndash; The personal blog of Jesse Baird</title>
-		<link rel="dns-prefetch" href="//jslogger.com" />
+		
 		<link rel="dns-prefetch" href="//google-analytics.com" />
 		<link rel="dns-prefetch" href="//platform.twitter.com" />
-
 		<link rel="stylesheet" href="/css/styles.css" type="text/css"/>
-
-		<!--
-		<script type="text/javascript">document.write('<script type="text/javascript" src="' + ('https:'==document.location.protocol?'https://':'http://c.') + 'jslogger.com/jslogger.js"><\/script>');</script>
-		<script type="text/javascript">window.jslogger = new JSLogger();</script> -->
-
+		
 		<body>
 			<canvas id="header-graphic" width="1000" height="100"></canvas>
 			<div class="row header">
 				<div class="logo">
 					<h1><a href="/"><span class="firstname">Jesse</span> <span class="lastname">Baird</span></a></h1>
-
 				</div>
 				<nav>
 					<ul>
-						<li>
+						<li class="nav-item-home">
 							<a href="/">Home</a>
 						</li>
-						<li>
+						<li class="nav-item-projects">
 							<a href="/tag/projects/">Projects</a>
 						</li>
-						<li>
+						<li class="nav-item-about">
 							<a href="/about/">About</a>
 						</li>
-						<li>
+						<li class="nav-item-contact">
 							<a href="/contact/">Contact</a>
 						</li>
 					</ul>

@@ -2,6 +2,7 @@
 layout: default
 title: Where can you find me on the web
 permalink: /contact/
+page-class: page-contact
 ---
 
 Twitter - [@jesse_baird](https://twitter.com/jesse_baird)

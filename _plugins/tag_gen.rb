@@ -11,6 +11,7 @@ module Jekyll
       self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
       self.data['tag'] = tag
       self.data['title'] = "Posts Tagged in &ldquo;"+tag+"&rdquo;"
+      self.data['page-class'] = "page-tag-"+tag
     end
   end
 
