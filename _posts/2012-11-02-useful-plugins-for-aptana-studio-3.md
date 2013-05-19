@@ -20,3 +20,5 @@ tags: [aptana studio]
 <h3>jebaird / aptana-formatter-profiles</h3>
 <p>I  started on creating a javascript code formatter profile that is as  close to the jQuery core style guide. You may or may not find it useful.  You can find it here: <a href="https://github.com/jebaird/aptana-formatter-profiles">https://github.com/jebaird/aptana-formatter-profiles</a></p>
 <p>To  import this style guide, download it and go to Window &gt; Preferences  &gt; Aptana Stuido &gt; Formatter. Click the import button</p>
+
+One of the most helpful things that I have found it is to search for eclipse plugins not aptana studio plugins. Since aptana is built on top of eclipse most of the plugins will work.
