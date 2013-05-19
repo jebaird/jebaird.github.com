@@ -2,3 +2,6 @@ Sitemap: http://jebaird.com/sitemap.xml
 User-agent: *
 
 Disallow: /vrfzbw/
+Disallow: /archive/
+Disallow: /category/
+Disallow: /node/1/revisions/
