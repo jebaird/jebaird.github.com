@@ -1,24 +1,23 @@
 {% include layout-header.html %}
-<div class="container page">
-				<div class="row">
-					<div class="eleven columns page-body">
-						<h1>{{page.title}}</h1>
+<main class="container page" role="main">
+	<div class="row">
+		<div class="eleven columns page-body">
 
-						{{ content }}
-					</div>
-					<!-- end of body -->
+			{{ content }}
+		</div>
+		<!-- end of body -->
 
-					<div class="omega offset-by-eleven sidebar">
-						{% include block-quick-about.md %}
+		<div class="omega offset-by-eleven sidebar">
+			{% include block-quick-about.md %}
 
-						{% include block-recent-posts.md %}
-						{% include block-tweets.html %}
-						{% include block-tags.md %}
-						{% include block-google-ads.md %}
+			{% include block-recent-posts.md %}
+			{% include block-tweets.html %}
+			{% include block-tags.md %}
+			{% include block-google-ads.md %}
 
-					</div><!--end of sidebar-->
+		</div><!--end of sidebar-->
 
-				</div>
-			</div>
+	</div>
+</main>
 
 {% include layout-footer.html %}
