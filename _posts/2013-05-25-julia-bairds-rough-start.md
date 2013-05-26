@@ -22,6 +22,7 @@ After a few extremely rough days came some positives that we are holding onto ti
 ![Getting Julia ready for the swallow test](/img/posts/2013-05-25-julia-bairds-rough-start/julia-carseat-swallow-test.jpg)
 
 <video src="/img/posts/2013-05-25-julia-bairds-rough-start/julias-swallow-test.m4v"/>
+
 video of the swallow test!
 
 Using an X-Ray machine they tested her sucking ability once more and checked to see that the milk she drank went down to her stomach and didn't get caught in her wind pipe or lungs or anywhere else it wasn't supposed to be. Julia passed the test with flying colors and started to bottle feed (pumped breast milk from Mom) that very day! On Friday the 24th they took out her other line in her umbilical cord and was able to put clothes on her. We fed her a bottle a few more times and she took it down like a champ both times. 
@@ -32,6 +33,6 @@ On Saturday the 25th came some more great victories. She no longer had the feedi
 
 As we look forward to going home, Julia needs to accomplish a few things first. They will eventually take over her oxygen tube and let her breath room air all on her own and see how well she tolerates it. She will also be taken off of her seizure medicine on Monday the 27th and will be monitored for about a week. If she has no more seizures she will able to finally go home!! Mom and Dad can't wait to take her home!
 
-![Jesse, Teresa and Julia]/img/posts/2013-05-25-julia-bairds-rough-start/jesse-teresa-julia.jpg)
+![Jesse, Teresa and Julia](/img/posts/2013-05-25-julia-bairds-rough-start/jesse-teresa-julia.jpg)
 
 This has certainly been the hardest week of our lives...we went to the hospital last Tuesday expecting to bring our baby home a few days later but unfortunately that was not the case for us. However, we are still thankful for the gift of a beautiful baby girl and we cannot believe how much we love her already. We are very dedicated to giving her the best care we possibly can so she can have a healthy and happy life. If you are wondering if you can do anything for her or us, just pray for her.
