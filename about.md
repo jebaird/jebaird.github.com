@@ -7,11 +7,11 @@ page-class: page-about
 
 Hey there! My name is Jesse Baird. I was born and raised in Iowa. I'm currently living in Waterloo, IA with my wife Teresa, our daughter Julia and our cat, Ace. I currently work for [Ontraport](http://ontraport.com?source=jebarid.com "Ontraport") as a Senior Web UI Engineer.
 
-![Jesse and Teresa on the Santa Barbara pier](/img/family.jpg)
+![Jesse and Teresa on the Santa Barbara pier](/media/family.jpg)
 
 Teresa and I on the Santa Barbara pier in December 2012.
 
-![sleeping julia](/img/posts/2013-05-25-julia-bairds-rough-start/sleeping-juila.jpg)
+![sleeping julia](/media/2013-05-25-julia-bairds-rough-start/sleeping-juila.jpg)
 
 Julia sleeping in the NICU a couple days after she was born. You can read more about her story [here](/2013/05/25/julia-bairds-rough-start.html).
 
