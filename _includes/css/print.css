@@ -1,0 +1,22 @@
+@media print {
+
+.header, 
+footer,
+.sidebar,
+#header-graphic{
+	display: none;
+}
+
+html{
+	background-image: none;
+}
+
+img {
+	max-width: 500px;
+}
+.page {
+	color: #000 !important;
+	width: 100% !important;
+}
+	
+}

@@ -5,3 +5,4 @@ layout: nil
 {% include css/skeleton.css %}
 {% include css/layout.css %}
 {% include css/layout-tag.css %}
+{% include css/print.css %}
