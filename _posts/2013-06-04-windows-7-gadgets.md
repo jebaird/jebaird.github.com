@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows 7 Gadgets I Use Daily
+title: Windows 7 Gadgets That I Always Have Installed
 tags: [windows]
 ---
 
