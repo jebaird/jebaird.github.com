@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows 7 Gadgets That I Always Have Installed
+title: My Picks for Windows 7 Gadgets 
 tags: [windows]
 ---
 
