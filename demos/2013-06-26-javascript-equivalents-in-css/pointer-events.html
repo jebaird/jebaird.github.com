@@ -4,8 +4,10 @@ title: Pointer events
 post-url: /2013/06/26/javascript-equivalents-in-css.html
 ---
 
-Pointer events
-
+<p>In this demo you shouldn't be able to click the links. The js version is using 
+event.preventDefault() and the css version is using pointer-events: none; You can 
+read about pointer events more <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events">here</a>.
+</p>
 
 <style type="text/css">
 	.css-state-disabled{
@@ -19,10 +21,10 @@ Pointer events
 
 
 
-<h3>Javascript Version</h3>
+<h3>JavaScript Version</h3>
 
 <div class="js-version">
-	<a class="css-state-disabled" href=""> click me!</a>
+	<a href="http://google.com" target="_blank">take me to google.com!</a>
 </div>
 
 
@@ -32,17 +34,14 @@ Pointer events
 	$(function(){
 		$('.js-version').find('button').addClass('js-state-disabled');
 		$('.js-version').on('click', 'a', function( e ){
-			if( $( this ).hasClass('js-state-disabled') ){
-				e.preventDefault();
-			}
+			
+			e.preventDefault();
 		})
 	})();
 </script>
 
 <h3>CSS Version</h3>
 
-<p>you shouldnt be able to click me</p>
-
 <div class="css-version">
-	<a class="css-state-disabled" href=""> click me!</a>
+	<a class="css-state-disabled" href="http://google.com" target="_blank"> take me to google.com!</a>
 </div>
