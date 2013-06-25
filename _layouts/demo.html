@@ -3,7 +3,11 @@
 
 	<div class="sixteen columns">
 		<h1>{{page.title}}</h1>
-		<p><a href="{{ page.post-url }}">Return to article</a> | <a href="{{ page.git-url }}">View on github</a></p>
+		<p><a href="{{ page.post-url }}">Return to article</a> 
+		{% if page.git-url %}
+			| <a href="{{ page.git-url }}">View on github</a>
+		{% endif %}
+		</p>
 		{{ content }}
 	</div>
 	<script type="text/javascript"><!--
