@@ -1,0 +1,61 @@
+---
+layout: demo
+title: empty demo
+post-url: /2013/06/26/javascript-equivalents-in-css.html
+---
+
+In this demo you should see only 2 paragraphs
+
+
+<style type="text/css">
+	.item{
+		padding: 1em;
+		color: red;
+		border: 1px black solid;
+		background: #333;
+	}
+
+	.css-version .item:empty{
+		display: none;
+	}
+</style>
+
+
+
+<h3>Javascript Version</h3>
+
+<div class="js-version">
+	<ul>
+		<li class="item">this is an item 1</li>
+		<li class="item">this is an item 2</li>
+		<li class="item"></li>
+		<li class="item">this is an item 4</li>
+		<li class="item">this is an item 5</li>
+	</ul>
+</div>
+
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('.js-version').find('.item').each(function(){
+			if( this.innerHTML == '' ){
+				this.style.display == 'none';	
+			}
+		})
+	})();
+</script>
+
+<h3>CSS Version</h3>
+
+
+<div class="css-version">
+	<ul>
+		<li class="item">this is an item 1</li>
+		<li class="item">this is an item 2</li>
+		<li class="item"></li>
+		<li class="item">this is an item 4</li>
+		<li class="item">this is an item 5</li>
+	</ul>
+</div>

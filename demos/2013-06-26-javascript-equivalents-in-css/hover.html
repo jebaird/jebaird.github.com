@@ -1,0 +1,53 @@
+---
+layout: demo
+title: Using css over
+post-url: /2013/06/26/javascript-equivalents-in-css.html
+---
+
+
+<style type="text/css">
+	.hover-parent{
+		padding: 5em;
+		border: 1px solid gray;
+		background: #333;
+	}
+	.hover-showme{
+		padding: .5em;
+		border: 1px solid white;
+		color: red;
+		display: none;
+		position: absolute;
+	}
+	.css-version:hover .hover-showme{
+		display: block;
+	}
+</style>
+
+
+
+<h3>Javascript version</h3>
+
+<div class="hover-parent js-version">
+	<div class="hover-showme">
+		show me	- js version
+	</div>
+</div>
+
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('.js-version').on('mouseenter mouseout',function(){
+			$(this).children('.hover-showme').toggle()
+		})
+	})()
+</script>
+
+<h3>CSS Verson</h3>
+
+<div class="hover-parent css-version">
+	<div class="hover-showme">
+		show me	- css version
+	</div>
+</div>

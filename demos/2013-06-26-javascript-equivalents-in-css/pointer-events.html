@@ -1,0 +1,48 @@
+---
+layout: demo
+title: Pointer events
+post-url: /2013/06/26/javascript-equivalents-in-css.html
+---
+
+Pointer events
+
+
+<style type="text/css">
+	.css-state-disabled{
+		opacity: 0.7;
+		pointer-events: none;
+	}
+	.js-state-disabled {
+		opacity: 0.7;
+	}
+</style>
+
+
+
+<h3>Javascript Version</h3>
+
+<div class="js-version">
+	<a class="css-state-disabled" href=""> click me!</a>
+</div>
+
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('.js-version').find('button').addClass('js-state-disabled');
+		$('.js-version').on('click', 'a', function( e ){
+			if( $( this ).hasClass('js-state-disabled') ){
+				e.preventDefault();
+			}
+		})
+	})();
+</script>
+
+<h3>CSS Version</h3>
+
+<p>you shouldnt be able to click me</p>
+
+<div class="css-version">
+	<a class="css-state-disabled" href=""> click me!</a>
+</div>

@@ -1,0 +1,66 @@
+---
+layout: demo
+title: Text Overflow
+post-url: /2013/06/26/javascript-equivalents-in-css.html
+---
+
+Pointer events
+
+
+
+
+<h3>Javascript Version</h3>
+
+<div class="js-version">
+	<a class="css-state-disabled" href=""> click me!</a>
+</div>
+
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('.js-version').find('button').addClass('js-state-disabled');
+		$('.js-version').on('click', 'a', function( e ){
+			if( $( this ).hasClass('js-state-disabled') ){
+				e.preventDefault();
+			}
+		})
+	})();
+</script>
+
+<h3>CSS Version</h3>
+
+
+
+
+<style type="text/css">
+	.css-version .content p{
+		height: 1em;
+		text-overflow: ellipsis;
+		overflow: hidden;
+
+	}
+	/*show the full element when mouse enters in to this*/
+	.css-version .content:hover p{
+		height: 1em;
+		text-overflow: ellipsis;
+		overflow: visible;
+	}
+	.css-version .content:hover a{
+		display: none;
+	}
+</style>
+
+
+
+<div class="css-version">
+	<div class="content">
+		<p>Lorem ipsum dolor sit amet, reprehendunt delicatissimi te has, vis ex zril probatus, per at percipit voluptatum. Ceteros contentiones ex has, eam cu quot exerci argumentum. Mei ex natum recusabo, cum graeci fabulas ne. At ius diam virtute disputando, at omnes blandit qui. Rebum quidam molestie ei per, eos an idque forensibus, duo no summo honestatis. Vidit simul discere est ad, ad sed probo fabulas debitis</p>
+		<a href="">more</a>
+
+	</div>
+
+
+
+</div>
