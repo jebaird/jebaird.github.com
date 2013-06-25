@@ -3,11 +3,6 @@ layout: post
 tags: [javascript, css ]
 title: JavaScript Equivalents in CSS
 ---
-* pointer events
-* :empty
-* toggle with hover
-* animatsons
-* textoverflow elipsis
 
 
 CSS has become very powerful and widely supported over the past couple of years. This has let us transfer some of the view based code out JavaScript. Here are a couple of my favorites
@@ -30,5 +25,5 @@ Using the pesudo selector hover we can show and hide elements using css
 
 ### Text overflow ellipsis
 
-
+[demo](/demos/2013-06-26-javascript-equivalents-in-css/text-overflow.html)
 
