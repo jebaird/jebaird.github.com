@@ -8,13 +8,11 @@ body .container{
 
 html {
 	background-attachment: fixed;
-	
-	background-image: -moz-linear-gradient(left,  #fff 60%, rgba(174,172,180,1) 100%); /* FF3.6+ */
-	background-image: -webkit-gradient(linear, left top, right top, color-stop(60%,rgba(255,244,244,1)), color-stop(100%,rgba(174,172,180,1))); /* Chrome,Safari4+ */
-	background-image: -webkit-linear-gradient(left,  rgba(255,244,244,1) 60%,rgba(174,172,180,1) 100%); /* Chrome10+,Safari5.1+ */
-	background-image: -o-linear-gradient(left,  rgba(255,244,244,1) 60%,rgba(174,172,180,1) 100%); /* Opera 11.10+ */
-	background-image: -ms-linear-gradient(left,  rgba(255,244,244,1) 60%,rgba(174,172,180,1) 100%); /* IE10+ */
-	background-image: linear-gradient(left,  rgba(255,244,244,1) 60%,rgba(174,172,180,1) 100%); /* W3C */
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(60%,rgba(255,244,244,1)), color-stop(100%,rgba(100,100,100,1))); /* Chrome,Safari4+ */
+	background-image: -webkit-linear-gradient(left,  rgba(255,244,244,1) 60%,rgba(100,100,100,1) 100%); /* Chrome10+,Safari5.1+ */
+	background-image: -o-linear-gradient(left,  rgba(255,244,244,1) 60%,rgba(100,100,100,1) 100%); /* Opera 11.10+ */
+	background-image: -ms-linear-gradient(left,  rgba(255,244,244,1) 60%,rgba(100,100,100,1) 100%); /* IE10+ */
+	background-image: linear-gradient(left,  rgba(255,244,244,1) 60%,rgba(100,100,100,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff4f4', endColorstr='#aeacb4',GradientType=1 ); /* IE6-9 */
 }
 
