@@ -1,0 +1,57 @@
+---
+layout: demo
+title: css :empty, application flow / use case
+post-url: /2013/06/26/javascript-equivalents-in-css.html
+---
+
+<style type="text/css">
+	ul{
+		list-style: none;
+	}
+	.item{
+		padding: 1em;
+		color: red;
+		border: 1px black solid;
+		background: #eee;
+		position: relative;
+	}
+
+	.css-version .item:empty{
+		border: 1px solid yellow;
+		background: white;
+	}
+	.css-version .item:empty:after{
+		content: 'click to edit';
+		margin-top: -1em;
+		color: #333;
+	}
+	.css-version .item:empty:focus:after{
+		display: none;
+	}
+</style>
+
+<div class="css-version">
+	<ul>
+		<li class="item">this is an item 1</li>
+		<li class="item">this is an item 2</li>
+		<li class="item">this is an item 4</li>
+		<li class="item">this is an item 5</li>
+	</ul>
+</div>
+<button class="action-add-new">Add new</button>
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('.action-add-new').on('click',function(){
+			$('.css-version ul').append('<li contenteditable="true" class="item"></li>')
+		})
+		$('.js-version').find('.item').each(function(){
+			var $this = $( this );
+			if($this.html() == '' ){
+				$this.hide()
+			}
+		})
+	});
+</script>
