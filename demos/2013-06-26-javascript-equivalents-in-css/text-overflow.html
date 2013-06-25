@@ -1,18 +1,32 @@
 ---
 layout: demo
-title: Text Overflow
+title: Text Overflow Demo
 post-url: /2013/06/26/javascript-equivalents-in-css.html
 ---
 
-Pointer events
+<p>
+	Move your mouse over the paragraphs, you should see the content expand. The js version is very simple, its 
+	more to contrast the to the css version. Checkout 
+	<a href="https://www.google.com/search?q=jquery+text+overflow" target="_blank">google</a> for the hundreds of plugins that exist.
+</p>
 
+<h3>JavaScript Version</h3>
 
+<style type="text/css">
 
+	.js-version .content p{
+		height: 1em;
+		overflow: hidden;
+	}
 
-<h3>Javascript Version</h3>
+</style>
+
 
 <div class="js-version">
-	<a class="css-state-disabled" href=""> click me!</a>
+	<div class="content">
+		<p>Lorem ipsum dolor sit amet, reprehendunt delicatissimi te has, vis ex zril probatus, per at percipit voluptatum. Ceteros contentiones ex has, eam cu quot exerci argumentum. Mei ex natum recusabo, cum graeci fabulas ne. At ius diam virtute disputando, at omnes blandit qui. Rebum quidam molestie ei per, eos an idque forensibus, duo no summo honestatis. Vidit simul discere est ad, ad sed probo fabulas debitis</p>
+
+	</div>
 </div>
 
 
@@ -20,18 +34,19 @@ Pointer events
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <script type="text/javascript">
 	$(function(){
-		$('.js-version').find('button').addClass('js-state-disabled');
-		$('.js-version').on('click', 'a', function( e ){
-			if( $( this ).hasClass('js-state-disabled') ){
-				e.preventDefault();
+		$('.js-version').on('mouseenter mouseout', '.content p', function( e ){
+			if( e.type == 'mouseenter' ){
+				$( this ).css('height', 'auto');
+			}else{
+				//out
+				$( this ).css('height', '' );
 			}
+			
 		})
-	})();
+	})
 </script>
 
 <h3>CSS Version</h3>
-
-
 
 
 <style type="text/css">
@@ -40,12 +55,24 @@ Pointer events
 		text-overflow: ellipsis;
 		overflow: hidden;
 
+		margin: 0px;
+
 	}
+	.css-version .content:after{
+		content: ' ...';
+		float: right;
+		margin-top: -1em;
+		margin-left: 6px;
+
+	}
+
 	/*show the full element when mouse enters in to this*/
 	.css-version .content:hover p{
-		height: 1em;
 		text-overflow: ellipsis;
 		overflow: visible;
+	}
+	.css-version .content:hover:after {
+		content: '';
 	}
 	.css-version .content:hover a{
 		display: none;
@@ -57,8 +84,6 @@ Pointer events
 <div class="css-version">
 	<div class="content">
 		<p>Lorem ipsum dolor sit amet, reprehendunt delicatissimi te has, vis ex zril probatus, per at percipit voluptatum. Ceteros contentiones ex has, eam cu quot exerci argumentum. Mei ex natum recusabo, cum graeci fabulas ne. At ius diam virtute disputando, at omnes blandit qui. Rebum quidam molestie ei per, eos an idque forensibus, duo no summo honestatis. Vidit simul discere est ad, ad sed probo fabulas debitis</p>
-		<a href="">more</a>
-
 	</div>
 
 
