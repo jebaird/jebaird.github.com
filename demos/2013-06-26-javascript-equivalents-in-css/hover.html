@@ -1,9 +1,11 @@
 ---
 layout: demo
-title: Using css over
+title: css :hover
 post-url: /2013/06/26/javascript-equivalents-in-css.html
 ---
-
+<p> In this demo when you move your mouse over the gray boxes you should see some red text. 
+	The js version uses jquery and the css version uses :hover
+</p>
 
 <style type="text/css">
 	.hover-parent{
@@ -38,7 +40,7 @@ post-url: /2013/06/26/javascript-equivalents-in-css.html
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <script type="text/javascript">
 	$(function(){
-		$('.js-version').on('mouseenter mouseout',function(){
+		$('.js-version').on('mouseenter mouseleave',function(){
 			$(this).children('.hover-showme').toggle()
 		})
 	})()
