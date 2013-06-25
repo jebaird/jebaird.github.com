@@ -4,7 +4,7 @@ title: empty demo
 post-url: /2013/06/26/javascript-equivalents-in-css.html
 ---
 
-In this demo you should see only 2 paragraphs
+<p>In this demo you should see only 4 list items in each version even though there are 5 list items</p>
 
 
 <style type="text/css">
@@ -40,11 +40,12 @@ In this demo you should see only 2 paragraphs
 <script type="text/javascript">
 	$(function(){
 		$('.js-version').find('.item').each(function(){
-			if( this.innerHTML == '' ){
-				this.style.display == 'none';	
+			var $this = $( this );
+			if($this.html() == '' ){
+				$this.hide()
 			}
 		})
-	})();
+	});
 </script>
 
 <h3>CSS Version</h3>
