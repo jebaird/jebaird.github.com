@@ -15,14 +15,14 @@ Using the pseudo selector :hover, we can show and hide elements using only css. 
 
 ### Using pointer events to disable clicks
 
-At Ontraport, we have a css framework that uses pointer-events on the state-disabled class to disable buttons, inputs and links. It helped cut down on the size of the javascript in our application.
+At Ontraport, we have a css framework that uses pointer-events on the state-disabled class to disable buttons, inputs and links. It helped cut down on the size of our javascript.
 
 [pointer-events demo](/demos/2013-06-26-javascript-equivalents-in-css/pointer-events.html)
 
 
 ### Using :empty to highlight newly created elements
 
-You can do more than just hide empty elements with :empty. 
+:empty is pretty handy for hiding elements that don't have any content.
 
 [hide empty elements demo](/demos/2013-06-26-javascript-equivalents-in-css/empty.html). 
 
