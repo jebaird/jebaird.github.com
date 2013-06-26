@@ -1,0 +1,47 @@
+---
+layout: demo
+title: Pointer events
+post-url: /2013/06/26/javascript-equivalents-in-css.html
+---
+
+<p>In this demo you shouldn't be able to click the links. The js version is using 
+event.preventDefault() and the css version is using pointer-events: none; You can 
+read about pointer events more <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events">here</a>.
+</p>
+
+<style type="text/css">
+	.css-state-disabled{
+		opacity: 0.7;
+		pointer-events: none;
+	}
+	.js-state-disabled {
+		opacity: 0.7;
+	}
+</style>
+
+
+
+<h3>JavaScript Version</h3>
+
+<div class="js-version">
+	<a href="http://google.com" target="_blank">take me to google.com!</a>
+</div>
+
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('.js-version').find('button').addClass('js-state-disabled');
+		$('.js-version').on('click', 'a', function( e ){
+			
+			e.preventDefault();
+		})
+	})();
+</script>
+
+<h3>CSS Version</h3>
+
+<div class="css-version">
+	<a class="css-state-disabled" href="http://google.com" target="_blank"> take me to google.com!</a>
+</div>
