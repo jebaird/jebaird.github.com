@@ -4,26 +4,40 @@ tags: [javascript, css ]
 title: JavaScript Equivalents in CSS
 ---
 
-
-CSS has become very powerful and widely supported over the past couple of years. This has let us transfer some of the view based code out JavaScript. Here are a couple of my favorites
-
-### Using pointer events 
-[demo](/demos/2013-06-26-javascript-equivalents-in-css/pointer-events.html)
+With the wide support of css 3 we can use css to do some of the things that could only be done in javascript in the past. Here are a couple of my favorite replacements for js with css.  
 
 
-### :empty
+### Togging an element visibility with :hover
 
-[demo](/demos/2013-06-26-javascript-equivalents-in-css/empty.html)
+Using the pseudo selector :hover, we can show and hide elements using only css. This is particlay handy for tooltips and action controls. 
 
-### Togging an element with :hover
+[:hover demo](/demos/2013-06-26-javascript-equivalents-in-css/hover.html)
 
-Using the pesudo selector hover we can show and hide elements using css
-[demo](/demos/2013-06-26-javascript-equivalents-in-css/hover.html)
+### Using pointer events to disable clicks
+
+At Ontraport, we have a css framework that uses pointer-events on the state-disabled class to disable buttons, inputs and links. It helped cut down on the size of the javascript in our application.
+
+[pointer-events demo](/demos/2013-06-26-javascript-equivalents-in-css/pointer-events.html)
 
 
-### animations
+### Using :empty to highlight newly created elements
 
-### Text overflow ellipsis
+You can do more than just hide empty elements with :empty. 
 
-[demo](/demos/2013-06-26-javascript-equivalents-in-css/text-overflow.html)
+[hide empty elements demo](/demos/2013-06-26-javascript-equivalents-in-css/empty.html). 
 
+Another great use of :empty is to highlight newly created items / containers in your application.
+
+[highlighting newly created elements demo](/demos/2013-06-26-javascript-equivalents-in-css/empty-app.html).
+
+
+### Read more... Using Text overflow
+
+There are hundreds of jQuery plugins that tackle the pattern of hiding parts of an paragraph. But its easy to setup something like this using only css. 
+
+[Text overflow / more... demo](/demos/2013-06-26-javascript-equivalents-in-css/text-overflow.html)
+
+
+### Wrapping up
+
+Keep in mind, you should use the right tool for the job. In some cases javascript is still the best way to get things done. I'm going to keep looking for javascript equivalents in css.
