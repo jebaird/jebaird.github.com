@@ -47,11 +47,6 @@ post-url: /2013/06/26/javascript-equivalents-in-css.html
 		$('.action-add-new').on('click',function(){
 			$('.css-version ul').append('<li contenteditable="true" class="item"></li>')
 		})
-		$('.js-version').find('.item').each(function(){
-			var $this = $( this );
-			if($this.html() == '' ){
-				$this.hide()
-			}
-		})
+		
 	});
 </script>
