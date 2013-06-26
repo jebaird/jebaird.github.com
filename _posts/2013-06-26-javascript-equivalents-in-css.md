@@ -9,7 +9,7 @@ With the wide support of css 3 we can use css to do some of the things that coul
 
 ### Togging an element visibility with :hover
 
-Using the pseudo selector :hover, we can show and hide elements using only css. This is particlay handy for tooltips and action controls. 
+Using the pseudo selector :hover, we can show and hide elements using only css. This is pretty handy for tooltips and popup controls. 
 
 [:hover demo](/demos/2013-06-26-javascript-equivalents-in-css/hover.html)
 
