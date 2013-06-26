@@ -22,7 +22,7 @@ At Ontraport, we have a css framework that uses pointer-events on the state-disa
 
 ### Using :empty to highlight newly created elements
 
-:empty is pretty handy for hiding elements that don't have any content.
+The :empty pseudo selector is pretty handy for hiding elements that don't have any content.
 
 [hide empty elements demo](/demos/2013-06-26-javascript-equivalents-in-css/empty.html). 
 
