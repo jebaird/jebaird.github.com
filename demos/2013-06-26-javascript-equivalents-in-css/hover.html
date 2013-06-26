@@ -12,6 +12,8 @@ post-url: /2013/06/26/javascript-equivalents-in-css.html
 		padding: 5em;
 		border: 1px solid gray;
 		background: #333;
+		color: white;
+		position: relative;
 	}
 	.hover-showme{
 		padding: .5em;
@@ -19,6 +21,8 @@ post-url: /2013/06/26/javascript-equivalents-in-css.html
 		color: red;
 		display: none;
 		position: absolute;
+		top: 1em;
+		right: 1em;
 	}
 	.css-version:hover .hover-showme{
 		display: block;
@@ -30,8 +34,9 @@ post-url: /2013/06/26/javascript-equivalents-in-css.html
 <h3>Javascript version</h3>
 
 <div class="hover-parent js-version">
+	This is an important note!
 	<div class="hover-showme">
-		show me	- js version
+		js version - help note
 	</div>
 </div>
 
@@ -40,16 +45,17 @@ post-url: /2013/06/26/javascript-equivalents-in-css.html
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <script type="text/javascript">
 	$(function(){
-		$('.js-version').on('mouseenter mouseleave',function(){
-			$(this).children('.hover-showme').toggle()
+		$('.js-version').on('mouseenter mouseleave',function( e ){
+			$(this).children('.hover-showme').toggle( e.type == 'mouseenter' )
 		})
-	})()
+	})
 </script>
 
-<h3>CSS Verson</h3>
+<h3>CSS Version</h3>
 
 <div class="hover-parent css-version">
+	This is an important note!
 	<div class="hover-showme">
-		show me	- css version
+		css version - help note
 	</div>
 </div>
