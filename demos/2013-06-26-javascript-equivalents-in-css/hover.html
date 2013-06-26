@@ -1,0 +1,61 @@
+---
+layout: demo
+title: Using css :hover to show / hide an element
+post-url: /2013/06/26/javascript-equivalents-in-css.html
+---
+<p> In this demo when you move your mouse over the gray boxes you should see some red text. 
+	The js version uses jquery and the css version uses :hover
+</p>
+
+<style type="text/css">
+	.hover-parent{
+		padding: 5em;
+		border: 1px solid gray;
+		background: #333;
+		color: white;
+		position: relative;
+	}
+	.hover-showme{
+		padding: .5em;
+		border: 1px solid white;
+		color: red;
+		display: none;
+		position: absolute;
+		top: 1em;
+		right: 1em;
+	}
+	.css-version:hover .hover-showme{
+		display: block;
+	}
+</style>
+
+
+
+<h3>Javascript version</h3>
+
+<div class="hover-parent js-version">
+	This is an important note!
+	<div class="hover-showme">
+		js version - help note
+	</div>
+</div>
+
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('.js-version').on('mouseenter mouseleave',function( e ){
+			$(this).children('.hover-showme').toggle( e.type == 'mouseenter' )
+		})
+	})
+</script>
+
+<h3>CSS Version</h3>
+
+<div class="hover-parent css-version">
+	This is an important note!
+	<div class="hover-showme">
+		css version - help note
+	</div>
+</div>

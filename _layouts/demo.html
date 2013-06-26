@@ -1,20 +1,30 @@
 {% include layout-header.html %}
 <main class="container page" role="main">
 
-	<div class="sixteen columns">
+	<div class="sixteen columns row">
 		<h1>{{page.title}}</h1>
-		<p><a href="{{ page.post-url }}">Return to article</a> | <a href="{{ page.git-url }}">View on github</a></p>
+		<p><a href="{{ page.post-url }}">Return to article</a> 
+		{% if page.git-url %}
+			| <a href="{{ page.git-url }}">View on github</a>
+		{% endif %}
+		</p>
 		{{ content }}
 	</div>
-	<script type="text/javascript"><!--
-	google_ad_client = "ca-pub-6719545231132925";
-	/* demo banner */
-	google_ad_slot = "7924774499";
-	google_ad_width = 160;
-	google_ad_height = 600;
-	//-->
-	</script>
-	<script type="text/javascript"src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+
+
+	<div class="row">
+		<script type="text/javascript"><!--
+			google_ad_client = "ca-pub-6719545231132925";
+			/* demo banner2 */
+			google_ad_slot = "3627392094";
+			google_ad_width = 970;
+			google_ad_height = 90;
+			//-->
+			</script>
+			<script type="text/javascript"
+			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script>
+	</div>
 </main>
 
 {% include layout-footer.html %}
