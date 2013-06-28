@@ -1,5 +1,5 @@
 /**
- * over ride skeleton
+ * override skeleton
  */
 body .container{
 	margin: 0px 1em;
@@ -22,7 +22,7 @@ body{
 	color: #222;
 }
 
-a {
+a{
 	color: #0059E0;
 	cursor: pointer;
 }
@@ -47,7 +47,6 @@ a:hover{
 	z-index: 10;
 	top: 10px;
 	padding: .4em 1em;
-	
 	background-color: rgba(255, 255, 255, 0.8);
 }
 
@@ -88,7 +87,6 @@ a:hover{
 /*wraps all*/
 .page{
 	z-index: 100;
- 
 }
 
 /*
@@ -117,9 +115,6 @@ a:hover{
 	font-weight: lighter;
 }
 
-
-
-
 /*
  * page-body all page content is wrapped by this elements
  */
@@ -127,14 +122,10 @@ a:hover{
 	line-height: 2;
 }
 
-
-
 /*
  * 
  * article list
  */
-
-
 .articles .article{
     margin-bottom: 1em;
     padding-bottom: 1em;
@@ -177,12 +168,8 @@ footer{
 }
 
 /*
- * 
  * ######## sidebar 
- * 
  */
-
-
 .sidebar {
 	line-height: 1.7;
 	font-size: .9em;
@@ -190,14 +177,10 @@ footer{
 	text-shadow: 0px 0px 1px rgba( 255, 255, 255, 0.7 )
 }
 
-
-
 .sidebar h3{
 	border-bottom: 1px solid rgba(255,255,255,.4);
 	text-transform: capitalize;
 }
-
-
 .sidebar ul{
     list-style: none outside none !important;
     padding: 0px;
@@ -221,6 +204,7 @@ footer{
 .sidebar li:nth-of-type(odd){
    background-image: url('/css/img/li_green.png');
 }
+
 /*
  * tags list
  */
@@ -239,7 +223,7 @@ footer{
 .pagination{
 	list-style: none;
 	padding: 0px;
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 .pagination li {
   display: inline;
