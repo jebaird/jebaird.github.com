@@ -15,21 +15,23 @@ Scrolljs aims to make it easy to detect if an element can be scrolled, get the c
 
 Include scrolljs on your page
 
-```
+{% highlight html %}
 <script src="scroll.js"></script>
-```
+{% endhighlight %}
 
 Setup a target that has scrollable content. 
 
-```
-<div id="target">{{scrollable content}}</div>
-```
+{% highlight html %}
+<div id="target">....scrollable content....</div>
+{% endhighlight %}
+
 Create a scrolljs instance.
 
-```
+{% highlight javascript %}
 var inst = jebaird.scroll( document.getElementById('target');
 if( inst.scrollable() ){
 	alert('i can scroll');
 }
-```
+{% endhighlight %}
+
  And that's it. Checkout the code and tests for more documentation and examples.
