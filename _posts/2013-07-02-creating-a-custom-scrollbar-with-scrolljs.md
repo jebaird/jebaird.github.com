@@ -3,11 +3,33 @@ layout: post
 title: Creating a custom scrollbar with scrolljs
 tags: [javascript,projects]
 ---
-Over the past couple of years I have built a couple of custom scrollbar plugins ShortScroll and aceScroll. On both projects have allow me to explore the dom scroll api. I'll admit taking that its a little over wleaming when you start out. 
+Over the past couple of years I have run into several cases were I needed to interact with the dom properties related to scrolling an element. I found my self wishing / searching for library to handle the nuances of the api. So I wrote scrolljs.
 
-When I added the scroll option to dragtable I found my self lookking / wanting to use some of the scroll widgets api to check if an element was scrollable. Which gave me the idea to create a libary that would normalize the scroll api for use in other projects. 
+Scrolljs aims to make it easy to detect if an element can be scrolled, get the current scroll position and provide utility methods that are commonly needed. So if you don't see a method that you think others would like please feel free to fork and add it or submit an issue for the feature.
 
-* [view demo](/demos/2013-07-02-creating-a-custom-scrollbar-with-scrolljs/)
+
+* [view demo - create a custom scrollbar](/demos/2013-07-02-creating-a-custom-scrollbar-with-scrolljs/)
 * [on github.com](https://github.com/jebaird/scrolljs)
- 
-The possibilties are endless, you can create much 
+
+### Getting Started
+
+Include scrolljs on your page
+
+```html
+<script src="scroll.js"></script>
+```
+
+Setup a target that has scrollable content. 
+
+```html
+<div id="target">{{scrollable content}}</div>
+```
+Create a scrolljs instance.
+
+```javascript
+var inst = jebaird.scroll( document.getElementById('target');
+if( inst.scrollable() ){
+	alert('i can scroll');
+}
+```
+ And that's it. Checkout the code and tests for more documentation and exsmaples.
