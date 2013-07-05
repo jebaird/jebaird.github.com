@@ -7,8 +7,12 @@ $(document).ready(function(){
 		$target = $root.find('.demo-target'),
 		$track = $root.find('.demo-scroll-track'),
 		$bar = $track.children('.demo-scroll-bar'),
-		s = jebaird.scroll( $target[ 0 ] );
+		s = jebaird.scroll( $target[ 0 ] ),
+		updatePageStatus = function(){
+			$root.find('.demo-page-count span').html( s.pageCurrentVert() + '/' + s.pageCountVert() )
+		};
 	
+	updatePageStatus();
 	
 	/*
 	 * when the mouse wheel is scrolled update the scroll bar
@@ -17,6 +21,10 @@ $(document).ready(function(){
 		var ratio = s.pixelRatioVert( $bar[ 0 ]) ;
 		var dir = s.direction();
 		$bar.css('top', s.scrollVert() / ratio );
+		//update the page count 
+		
+		updatePageStatus();
+		
 	});
 	
 	/*

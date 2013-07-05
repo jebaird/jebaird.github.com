@@ -15,9 +15,8 @@
 .demo-scroll-track {
 	position: absolute;
 	top: 0px;
-	right: -12px;
-	bottom: 0px;
-	height: 100%;
+	right: -10px;
+	bottom: 25px;
 	width: 10px;
 	background: green;
 }
@@ -28,4 +27,14 @@
 	background: red;
 	position: relative;
 	top: 0px;
+	left: 1px;
+}
+
+.demo-wrapper .demo-page-count {
+	margin: 1em;
+	text-align: center;
+}
+.demo-wrapper .demo-page-count span {
+	padding-left: .5em;
+	font-weight: bold;
 }
