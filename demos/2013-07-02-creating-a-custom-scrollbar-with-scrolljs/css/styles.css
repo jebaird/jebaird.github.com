@@ -1,0 +1,40 @@
+/*
+ * scroll.js demo styles
+ */
+.demo-wrapper{
+	position: relative;
+	width: 400px;
+}
+.demo-wrapper .demo-target{
+	overflow: auto;
+	height: 200px;
+	width: 410px;
+	border: 1px solid black;
+}
+
+.demo-scroll-track {
+	position: absolute;
+	top: 0px;
+	right: -10px;
+	bottom: 25px;
+	width: 10px;
+	background: green;
+}
+
+.demo-scroll-track .demo-scroll-bar{
+	width: 8px;
+	height: 25px;
+	background: red;
+	position: relative;
+	top: 0px;
+	left: 1px;
+}
+
+.demo-wrapper .demo-page-count {
+	margin: 1em;
+	text-align: center;
+}
+.demo-wrapper .demo-page-count span {
+	padding-left: .5em;
+	font-weight: bold;
+}
