@@ -32,4 +32,4 @@ if( inst.scrollable() ){
 	alert('i can scroll');
 }
 ```
- And that's it. Checkout the code and tests for more documentation and exsmaples.
+ And that's it. Checkout the code and tests for more documentation and examples.
