@@ -33,6 +33,15 @@ img {
 	max-width: 100%;
 }
 
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #ddd;
+	line-height: 1.5em;
+	overflow: auto;
+	padding: .5em .8em;
+	border-radius: 2px;
+}
+
 a:hover{
 	text-decoration: none;
 }
