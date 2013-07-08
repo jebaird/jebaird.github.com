@@ -1,6 +1,7 @@
 baseurl: http://jebaird.com
 exclude: ["README.md", "LICENSE.md", "TODO.md", "build", "test"]
 
+safe: true
 
 markdown: rdiscount
 
