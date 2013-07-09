@@ -4,7 +4,7 @@ tags: [javascript, css ]
 title: JavaScript Equivalents in CSS
 ---
 
-With the wide support of css 3 we can use css to do some of the things that could only be done in javascript in the past. Here are a couple of my favorites.  
+With the wide support of css3 we can use css to do some of the things that could only be done in javascript in the past. Here are a couple of my favorites.  
 
 
 ### Togging an element visibility with :hover
