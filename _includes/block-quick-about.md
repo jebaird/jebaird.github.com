@@ -1,4 +1,4 @@
-<section>
+<section class="about">
 	<div class="two columns">
 	<img src="/media/sidebar-jesse-baird.jpg" alt="Jesse Baird" />
 	</div>

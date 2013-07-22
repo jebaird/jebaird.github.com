@@ -224,6 +224,12 @@ footer{
 .sidebar .about img {
 	margin: 0px 1em 0.5em 0px;
 }
+/*quickabout*/
+.sidebar .about p{
+	border-radius: 3px;
+	padding: 0px .3em 0px 0px;
+	background-color: rgba(255,255,255,0.7);
+}
 
 /*
  * pager
