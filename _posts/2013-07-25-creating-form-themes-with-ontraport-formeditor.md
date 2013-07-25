@@ -1,6 +1,16 @@
-using fe to create a form theme for all of the forms on your site
+---
+title: Creating form themes for Ontraport / OfficeAutoPilot forms
+layout: post
+---
 
-Ontraport / OfficeAutoPilot's formeditor is pretty powerful. But there are some cases where you want to create custom forms or a theme for all of the forms on your site. Its easier than you think it is! This setup will work on Wordpress, Landing Pages and plain old html pages.
+
+Ontraport / OfficeAutoPilot's formeditor is pretty powerful, it's great for creating one off designs. But I appears to lack the ability to create a themes for all of the forms on one site. That is not the case, its easier than you think to setup a form as a theme/design template source! This setup will work on Wordpress, Landing Pages and plain old html pages.
+
+### Quick Demo
+
+<video controls="controls"><source src="/media/2013-07-25-creating-form-themes-with-ontraport-formeditor/setting-up-form-theme-with-ontraport.mp4" type="video/mp4" /><source src="/media/2013-07-25-creating-form-themes-with-ontraport-formeditor/setting-up-form-theme-with-ontraport.webm" type="video/webm" />Your browser does not support the <code>video</code> element.</video>
+
+[view the code in action](/demos/2013-07-25-creating-form-themes-with-ontraport-formeditor)
 
 ### Create a "template form"
 
@@ -58,8 +68,8 @@ In your account and create a form, style it to your hearts content. Name it some
 	</div>
 
 
-Look for following lines in your forms html code. They are the ones you need to copy to your site's `<head></head>`
-
+### The Code
+Look for following lines in the code. They are the ones you need to copy to your site's `<head></head>`
 
 `<link rel="stylesheet" href="//www1.moon-ray.com/v2.4/include/formEditor/gencss.php?uid=p0c0000f0" type="text/css" />`
 
@@ -67,15 +77,11 @@ Look for following lines in your forms html code. They are the ones you need to 
 
 `<link rel="stylesheet" href="//www1.moon-ray.com/formeditor/formeditor/css/form.publish.css" type="text/css" />`
 
+### Applying your theme to other forms
 Next look for a line that looks like this: `<div class="moonray-form-p0c0000f0">` on any form you add to your site that you want to take on this theme you need add the class `moonray-form-p0c0000f0` to the div that wraps the form. Your form might look like this now
 `<div class="moonray-form-p0c0000f1 moonray-form-p0c0000f0"></div>`
 
-[view the demo](/demos/)
 
-<video controls="controls">
-	<source src="2013-07-23_1124_x264.mp4" type="video/mp4" />
-	Your browser does not support the <code>video</code> element.
-</video>
 
 
 getting tricky
