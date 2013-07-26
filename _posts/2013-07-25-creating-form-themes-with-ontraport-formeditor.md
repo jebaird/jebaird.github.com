@@ -1,10 +1,11 @@
 ---
-title: Creating form themes for Ontraport / OfficeAutoPilot forms
+title: Creating Themes for Ontraport/OfficeAutoPilot Forms
 layout: post
+tags: [ontraport]
 ---
 
-
-Ontraport / OfficeAutoPilot's formeditor is pretty powerful, it's great for creating one off designs. But I appears to lack the ability to create a themes for all of the forms on one site. That is not the case, its easier than you think to setup a form as a theme/design template source! This setup will work on Wordpress, Landing Pages and plain old html pages.
+Ontraport / OfficeAutoPilot's formeditor is pretty powerful, it's great for creating one off designs. 
+But did you know that can you use it to create themes that you can apply to other formeditor created forms? This setup will work on Wordpress, Landing Pages and plain old html pages.
 
 ### Quick Demo
 
@@ -14,9 +15,7 @@ Ontraport / OfficeAutoPilot's formeditor is pretty powerful, it's great for crea
 
 ### Create a "template form"
 
-In your account and create a form, style it to your hearts content. Name it something like `xyz.com - form template` that way you will remember that you're just using this form for its styles. Click on the publish button, and grab the html version.  It should look like like this.
-
-
+In your account, goto(in OAP) admin->Manage SmartForms->and create a form, style it to your hearts content. Name it something like `xyz.com - form template` that way you will remember that you're just using this form for its styles. Click on the publish button, and grab the html version.  It should look like like this.
 
 	<link rel="stylesheet" href="//www1.moon-ray.com/formeditor/formeditor/css/form.default.css" type="text/css" />
 	<link rel="stylesheet" href="//www1.moon-ray.com/formeditor/formeditor/css/form.publish.css" type="text/css" />
@@ -77,17 +76,9 @@ Look for following lines in the code. They are the ones you need to copy to your
 
 `<link rel="stylesheet" href="//www1.moon-ray.com/formeditor/formeditor/css/form.publish.css" type="text/css" />`
 
-### Applying your theme to other forms
-Next look for a line that looks like this: `<div class="moonray-form-p0c0000f0">` on any form you add to your site that you want to take on this theme you need add the class `moonray-form-p0c0000f0` to the div that wraps the form. Your form might look like this now
+### Applying Your New Theme 
+Next look for a line that looks like this: `<div class="moonray-form-p0c0000f0">` on any form you add to your site that you want to take on this theme you need add the class `moonray-form-p0c0000f0` to the div that wraps the form. Your form might look like this
 `<div class="moonray-form-p0c0000f1 moonray-form-p0c0000f0"></div>`
 
-
-
-
-getting tricky
-
-list of jq plugins
-* [form conditions](https://github.com/jebaird/formConditons) 
-* [jQuery UI](http://jqueryui.com)
-* [jQuery tools](http://jquerytools.org/)
+When you view your form, it should have your template form styles. 
 
