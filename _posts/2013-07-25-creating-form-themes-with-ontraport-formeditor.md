@@ -5,7 +5,7 @@ tags: [ontraport]
 ---
 
 Ontraport / OfficeAutoPilot's formeditor is pretty powerful, it's great for creating one off designs. 
-But did you know that can you use it to create themes that you can apply to other formeditor created forms? This setup will work on Wordpress, Landing Pages and plain old html pages.
+But did you know that you can use it to create themes that you can apply to other formeditor created forms? This setup will work on Wordpress, Landing Pages and plain old html pages.
 
 ### Quick Demo
 
@@ -76,9 +76,7 @@ Look for following lines in the code. They are the ones you need to copy to your
 
 `<link rel="stylesheet" href="//www1.moon-ray.com/formeditor/formeditor/css/form.publish.css" type="text/css" />`
 
-### Applying Your New Theme 
-Next look for a line that looks like this: `<div class="moonray-form-p0c0000f0">` on any form you add to your site that you want to take on this theme you need add the class `moonray-form-p0c0000f0` to the div that wraps the form. Your form might look like this
-`<div class="moonray-form-p0c0000f1 moonray-form-p0c0000f0"></div>`
-
-When you view your form, it should have your template form styles. 
+### Applying Your New Theme
+Create a new form and grab the html version of the code. Look for a line that looks like this: `<div class="moonray-form-p0c0000f1">`. And add ` moonray-form-p0c0000f0` to it. This is the class name identifier of your theme form. Now it should look something like this `<div class="moonray-form-p0c0000f1 moonray-form-p0c0000f0"></div>`
+Now, when you view your form, it should have your theme styles. 
 
