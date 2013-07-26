@@ -42,6 +42,11 @@ pre {
 	border-radius: 2px;
 }
 
+p > code {
+	border: 1px solid #ddd;
+	background-color: #f8f8f8;
+}
+
 a:hover{
 	text-decoration: none;
 }
