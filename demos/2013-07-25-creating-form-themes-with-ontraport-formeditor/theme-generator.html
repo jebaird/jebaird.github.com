@@ -1,0 +1,54 @@
+---
+title: Ontraport / OfficeAutoPilot form theme applier
+layout: demo
+---
+
+<div class="demo">
+	<div class="step step-1">
+
+		<form action="">
+			<fieldset>
+				<legend>
+					Theme form
+				</legend>
+				<textarea id="theme-source" required placeholder="paste in html code form the theme form"></textarea>
+				<iframe id="theme-preview"></iframe>
+			</fieldset>
+
+			<fieldset>
+				<legend>
+					Target form
+				</legend>
+				<p>
+					paste in the html form code that you would like to have t
+				</p>
+				<textarea id="target-source" required placeholder="paste html code for the form you want to theme"></textarea>
+				<iframe id="target-preview"></iframe>
+			</fieldset>
+
+			<input type="submit" value="Submit" />
+		</form>
+
+	</div>
+
+	<div class="step step-2">
+
+		<fieldset>
+			<legend>
+				Preveiw
+			</legend>
+			<p>
+				copy the themed form html source below
+			</p>
+			<iframe id="output-preview"></iframe>
+			<textarea id="output-srouce"></textarea>
+		</fieldset>
+
+		<a href="javascript://">Start over</a>
+
+	</div>
+
+</div>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="scripts.js" type="text/javascript"></script>
+<link href="styles.css" type="text/css"/>
