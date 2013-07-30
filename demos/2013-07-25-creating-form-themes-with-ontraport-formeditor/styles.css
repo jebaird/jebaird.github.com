@@ -1,3 +1,28 @@
 .demo textarea{
-	min-height: 400px;
+	height: 300px;
+	width: 200px
+	font-size: 11px;
+	vertical-align: top;
 }
+.demo iframe {
+	width: 350px;
+	height: 300px;
+	border-radius: 5px;
+	border: 1px solid #aaa;
+}
+.demo input[type=submit]{
+	font-size: 1.3em;
+	padding: .5em 2em;
+}
+.demo fieldset {
+	margin-bottom: 1em;
+	border: none;
+}
+.demo .step-2{
+	display: none;
+}
+.demo .step-2 textarea {
+	width: 400px;
+}
+
+

@@ -80,3 +80,6 @@ Look for following lines in the code. They are the ones you need to copy to your
 Create a new form and grab the html version of the code. Look for a line that looks like this: `<div class="moonray-form-p0c0000f1">`. And add ` moonray-form-p0c0000f0` to it. This is the class name identifier of your theme form. Now it should look something like this `<div class="moonray-form-p0c0000f1 moonray-form-p0c0000f0"></div>`
 Now, when you view your form, it should have your theme styles. 
 
+### Theme Generator
+
+For those who just want to try it out, or don't want to with code, I have created a form that does all of the heavy lifting for you. Check out the [theme generator](/demos/2013-07-25-creating-form-themes-with-ontraport-formeditor/theme-generator.html) here.
