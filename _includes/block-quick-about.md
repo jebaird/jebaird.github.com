@@ -1,6 +1,6 @@
 <section class="about">
 	<div class="two columns">
-	<img src="/media/sidebar-jesse-baird.jpg" alt="Jesse Baird" />
+	<img src="/media/sidebar-jesse-baird.jpg" alt="Jesse Baird" width="100px" height="100px"/>
 	</div>
 	<p class="omega">
 		<strong>Jesse Baird</strong> 
