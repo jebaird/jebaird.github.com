@@ -25,12 +25,3 @@ This clip of me that was cut together for the [Ontraport Careers](http://ontrapo
 One of the coolest things about being a front end developer, is getting to work with all kinds of interfaces. Weather that be an interface for a new website, creating a new api / framework. I like dealing with abstractions, I think its more of the more interesting things about code on the front end. There are many ways to tackle a problem but on the front end there is always an opportunity to solve it differently than the last time you faced this issue.
 
 I started blogging more as a personal reference than anything else. Its hard to measure how much you have learned over the past few years if you don't remember how you got there.
-
-
-### More Information
-
-* Twitter - [@jesse_baird](https://twitter.com/jesse_baird)
-* LinkedIn - [profile](http://www.linkedin.com/profile/view?id=47244555&source=jebaird.com)
-* StackOverflow - [jebaird](http://stackoverflow.com/users/63160/jebaird)
-* Google Plus - [jebaird](https://plus.google.com/109964193899575032374/posts)
-* GitHub - [jebaird](http://github.com/jebaird)
