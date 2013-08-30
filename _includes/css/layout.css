@@ -224,9 +224,12 @@ footer{
 	margin: 2px 0px 0px -21px;
 	
 }
-
 .sidebar li:nth-of-type(odd):before{
 	background-position: 0px -36px;
+}
+.sidebar li:hover{
+	background-color: rgba(255,255,255, 0.1);
+	border-radius: 3px;
 }
 
 /*
@@ -235,11 +238,10 @@ footer{
 .sidebar .tags li{
 	display: inline-block;
 }
-
+/*quickabout*/
 .sidebar .about img {
 	margin: 0px 1em 0.5em 0px;
 }
-/*quickabout*/
 .sidebar .about p{
 	border-radius: 3px;
 	padding: 0px .3em 0px 0px;
