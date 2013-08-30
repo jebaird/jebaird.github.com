@@ -205,18 +205,28 @@ footer{
     margin:0px 0px .8em 0px;
     list-style: none outside none !important;
     
-    background-repeat: no-repeat;
-    background-position: left .1em; 	
+   
     
 /*    make this list markers the right size */
     -webkit-background-size: 1.4em 1.4em;
     background-size: 1.4em 1.4em;
     
-    background-image: url('/css/img/li_blue.png');
+    
+}
+.sidebar li:before{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	float: left;
+	background-image: url('/css/img/sprite-list-style.png');
+	background-size: 16px 52px;
+	content: "\0020";
+	margin: 2px 0px 0px -21px;
+	
 }
 
-.sidebar li:nth-of-type(odd){
-   background-image: url('/css/img/li_green.png');
+.sidebar li:nth-of-type(odd):before{
+	background-position: 0px -36px;
 }
 
 /*
