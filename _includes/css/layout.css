@@ -61,14 +61,14 @@ a:hover{
 	z-index: 10;
 	top: 10px;
 	padding: .4em 1em;
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.85);
 }
 
 /*header nav*/
 .header nav{
 	display: inline-block;
 	float: left;
-	margin-top: 1em;
+	margin-top: .5em;
 }
 .header nav ul{
 	padding:0px;
@@ -79,7 +79,7 @@ a:hover{
 	display: inline-block;
 	float: left;
 	padding: 0px 0.40em;
-	font-size: 1.3em;
+	font-size: 1.5em;
 }
 .header nav a{
 	text-decoration: none;
