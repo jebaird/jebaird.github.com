@@ -10,7 +10,7 @@ It's been awhile since I released a good old fashion jquery plugin. cloneVal tar
 * [view the code in action](/demos/2013-10-12-jquery-cloneVal)
 * [GitHub](https://github.com/jebaird/jquery-cloneVal)
 
-A piratical use case for this plugin would be an e-commerce form with billing and shipping fields containing a checkbox labeled "My billing and shipping addresses are the same" When that's checked copy / clone the values to the shipping address fields.
+A practical use case for this plugin would be an e-commerce form with billing and shipping fields containing a checkbox labeled "My billing and shipping addresses are the same" When that's checked copy / clone the values to the shipping address fields.
 
 Take this sample markup into consideration
 
