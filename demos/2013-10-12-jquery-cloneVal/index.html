@@ -1,0 +1,41 @@
+---
+layout: demo
+title: jquery cloneVal demo
+post-url: /2013/10/12/jquery-cloneVal.html
+git-url: https://github.com/jebaird/jquery-cloneVal
+---
+
+<p>
+	change the first select and input values they should be copied to the following inputs
+</p>
+
+<form>
+<select class="select">
+	<option>one</option>
+	<option>two</option>
+</select>
+
+<input type="text" name="a" placeholder="I'm the source">
+<br>
+destination
+<br>
+<input type="text" name="b">
+<br>
+<input type="text" name="c">
+<br>
+
+<select class="target">
+	<option>nothing seleced</option>
+	<option>one</option>
+	<option>two</option>
+</select>
+
+</form>
+
+<script src="http://code.jquery.com/jquery.js" type="text/javascript"></script>
+<script src="jquery-cloneVal.js" type="text/javascript"></script>
+<script>
+	$( 'form' ).cloneVal( {
+		targets: [ [ ".select", ".target" ], [ "[name=a]", "[name=b]", "[name=c]" ] ]
+	} ); 
+</script>
