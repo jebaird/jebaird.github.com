@@ -1,0 +1,37 @@
+---
+layout: demo
+title: html5 templates demo
+post-url: /2013/10/12/html5-templates.html
+---
+
+<p>In this demo you should be able to see input with a placeholder and label with the text of "Enter your name"</p>
+
+<div id="target">
+	<span class="label">Enter your name</span>
+	<span class="name">name</span>
+</div>
+
+<template id="formInputTemplate">
+
+	<style>
+		input:focus {
+			background: #blue;
+		}
+	</style>
+
+	<label><content select=".label"></content></label>
+	<input type="text" name="<content select='.name'></content>" placeholder="<content select='.label'></content>">
+
+</template>
+
+The setting and rendering up the template looks like this. Bear in mind that this example will only work with webkit.
+
+<script>
+	//create shadow root
+	var shadow = document.querySelector( '#target' ).webkitCreateShadowRoot( );
+	//grab the target
+	var template = document.querySelector( '#formInputTemplate' );
+	//clone the template content so we can reuse the template
+	var tc = template.content.cloneNode( true );
+	shadow.appendChild( tc ); 
+</script>
