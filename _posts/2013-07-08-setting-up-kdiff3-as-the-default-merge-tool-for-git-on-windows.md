@@ -17,7 +17,7 @@ Either add this to your gitconfig:
 Or run These at the command line:
 
 	git config --global merge.tool kdiff3
-	git config --global mergetool.p4merge.cmd '"C:\\Program Files (x86)\\KDiff3\\kdiff3" $BASE $LOCAL $REMOTE $MERGED'
+	git config --global mergetool.kdiff3.cmd '"C:\\Program Files (x86)\\KDiff3\\kdiff3" $BASE $LOCAL $REMOTE $MERGED'
 	
 
 Now you will be able to resolve your conflicts the command line via
