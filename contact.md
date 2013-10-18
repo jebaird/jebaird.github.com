@@ -12,5 +12,6 @@ You can find me on any of the sites on the web
 * StackOverflow - [jebaird](http://stackoverflow.com/users/63160/jebaird)
 * Google Plus - [jebaird](https://plus.google.com/109964193899575032374/posts)
 * GitHub - [jebaird](http://github.com/jebaird)
+* Meetup - [profile](http://www.meetup.com/iowajs/members/42954292/)
 
 
