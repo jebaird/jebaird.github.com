@@ -32,6 +32,9 @@ img {
 	/*responsive image hack*/
 	max-width: 100%;
 }
+video{
+	max-width: 100%;
+}
 
 pre {
 	background-color: #f8f8f8;
@@ -135,6 +138,9 @@ a:hover{
 .page-body {
 	line-height: 2;
 }
+.page-body h1{
+	font-weight: 600;
+}
 
 /*
  * 
@@ -148,9 +154,10 @@ a:hover{
 .articles h2,
 .articles h2 a {
     margin-bottom: 0em;
-    color: #6A6677;
+    color: #000;
     font-size: 1.2em;
     text-decoration: none;
+    font-weight: lighter;
 }
 /*
  * posted date
@@ -176,10 +183,16 @@ a:hover{
 	margin-left: 0.5em;
 }
 
-
 footer{
 	padding: 2em;
 }
+
+
+/*post*/
+.post h2{
+	border-bottom: 1px solid #E4E4E7;
+}
+
 
 /*
  * ######## sidebar 
@@ -238,14 +251,16 @@ footer{
 .sidebar .tags li{
 	display: inline-block;
 }
-/*quickabout*/
-.sidebar .about img {
-	margin: 0px 1em 0.5em 0px;
+/*quickabout - override sleton*/
+html .sidebar .about .two.columns{
+   width: 100px;
 }
+
 .sidebar .about p{
 	border-radius: 3px;
 	padding: 0px .3em 0px 0px;
 	background-color: rgba(255,255,255,0.7);
+	padding-left: 1em;
 }
 
 /*
