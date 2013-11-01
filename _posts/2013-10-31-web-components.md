@@ -111,7 +111,7 @@ In this demo, I'm show casing the power of shadow DOM when paired with the templ
 
 ## Custom Elements
 
-1. Allows you to define new HTML/DOM elements via document.register(), its an API that's exposed via in the browser
+1. Allows you to define new HTML/DOM elements via document.register(), its an API that's exposed via the browser
 2. Create new elements that extend the native ones, this includes the markup and or their APIs
 3. It allows you to bundle encapsulate/functionally with in a an element be that native or custom
 
