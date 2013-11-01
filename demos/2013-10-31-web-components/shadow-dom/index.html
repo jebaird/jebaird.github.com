@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="target">
+    <span class="label">Enter your name</span>
+    <span class="name">name</span>
+    <span class="placeholder">enter your name</span>
+</div>
+
+<button onclick="catname()">Change the label</button>
+
+<template id="formInputTemplate">
+
+    <style>
+        input:focus{
+            background: black;
+            color: #fff;
+            font-weight: bold;
+        }
+        input:focus:after{
+            background-image: url("cat.jpg");
+            display: block;
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+
+    <label><content select=".label"></content></label>
+    <input type="text" name='<content select=".name"></content>' placeholder='<content select=".name"></content>'>
+
+</template>
+	
+<script>
+    //create shadow root
+    var shadow = document.querySelector('#target').webkitCreateShadowRoot();
+    //grab the target
+    var template = document.querySelector('#formInputTemplate');
+    //clone the template content so we can reuse the template
+    var tc = template.content.cloneNode(true);
+    shadow.appendChild(tc);
+    
+    function catname(){
+    	document.querySelectorAll(".label")[0].innerHTML ="Enter your cat name please";
+    }
+    
+</script>
+</body>
+</html>

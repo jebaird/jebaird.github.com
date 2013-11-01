@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+	/*just to show that css is segragated in a shadow root*/
+	.focus{
+		background-color: pink;
+	}
+</style>
+
+<template id="loginFormTemplate">
+	
+	<style>
+		.focus{
+			box-shadow: 6px 3px 10px blue;
+		}	
+	</style>
+	
+	<fieldset>
+		<legend><content select=".legend"></content></legend>
+	
+		<form action='<content select=".form-action"></content>' method="get">
+			<p>
+				<label>email</label>
+				<input type="email" name="email" placeholder="email"/>
+			</p>
+			<p>
+				<label>password</label>
+				<input type="password" name="password" placeholder="enter your password"/>
+			</p>
+			<input type="submit" value="Let me in">
+		</form>
+	</fieldset>
+
+</template>
+	
+<script>
+
+var proto = Object.create(HTMLElement.prototype)
+
+proto.createdCallback = function(){
+	//add an optional class to the elemnt
+	this.classList.add("my-app-form")
+	//make this element a shadow root
+	var shadow = this.webkitCreateShadowRoot();
+	//find the template on thage and get the content and clone
+	var template = document.querySelector('#loginFormTemplate');
+	var tc = template.content.cloneNode(true);
+	//append the content to the new element which is a shadow root
+	shadow.appendChild(tc);
+	
+	//stash for later
+	//if we dont do this, then all event listeners e.target.nodeName == x-login-form which kills 
+	// targeting event delegation
+	this._shadow = shadow;
+	
+	//extend out this instane, since we need access to _shadow can just put it in the proto
+	// simple event delegation based on node name
+	this.delegate = function(eventName, nodeName, func){
+		
+		this._shadow.addEventListener(eventName, function(e) {
+			
+			if(e.target && e.target.nodeName == nodeName) {
+				func.call( e.target, e, this );
+			}
+		});
+	}
+	
+	this.delegate('focusin', "INPUT",function(e) {
+		this.classList.add("focus")
+	});
+	
+	this.delegate('focusout', "INPUT",function(e) {
+		this.classList.remove("focus")
+	});
+	
+	this.delegate("submit","FORM", function(e){
+		
+		e.preventDefault();
+		alert("Logging in")
+	});
+	
+}
+//register our new tag with the browser
+var xLoginForm = document.register('x-login-form',{
+  prototype: proto
+});
+</script>
+
+<!-- our new custom tag name -->
+<x-login-form>
+	<span class="legend">IowaJs fancy login</span>
+	<span class="form-action">/api/login/me/in</span>
+</x-login-form>
+
+</body>
+</html>
