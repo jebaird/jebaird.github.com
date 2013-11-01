@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.min.css" />
+<script>
+	
+(function(){
+var proto = Object.create(HTMLButtonElement.prototype)
+
+
+proto.enteredViewCallback = function(){
+    console.log("enteredViewCallback", this)
+}
+
+proto._processClass = function( classnames, method ){
+	var method = method || "add";
+	var names=  classnames.split(" "),
+		i = names.length;
+	while( i-- ){
+		this.classList[method](names[i]);
+	}
+	
+}
+
+proto.addClass = function(classnames){
+	this._processClass.call(this, classnames, "add")
+}
+
+proto.removeClass = function(classnames){
+	this._processClass.call(this, classnames, "remove")
+}
+proto.createdCallback = function(){
+    
+    this.addClass("ui-button ui-widget-content ui-corner-all x-button")
+    this.setAttribute("role", "button");
+    this.setAttribute("aria-disabled", "false");
+    
+    //wrap the "label" with a span juat like jquery ui does
+    var text =this.innerHTML;
+    this.innerHTML= '<span class="ui-button-text">'+text+'</span>';
+    
+    var primaryIcon = this.getAttribute('data-icon-primary');
+    //is there an icon? if so add it
+    if( primaryIcon ){
+    	this.addClass("ui-button-text-icon-primary")
+        var icon = document.createElement("span")
+        
+        this._processClass.call(icon ,"ui-icon ui-button-icon-primary "+ primaryIcon, "add");
+        
+        this.appendChild(icon)
+    }else{
+    	this.addClass("ui-button-text-only")
+    }
+    
+    this.addEventListener('mouseover', function(e) {
+        this.addClass("ui-state-hover")
+    });
+    
+    this.addEventListener('focus', function(e) {
+        this.addClass("ui-state-focus")
+    });
+    this.addEventListener('blur', function(e) {
+        this.removeClass("ui-state-focus")
+    });
+    this.addEventListener('mouseout', function(e) {
+        this.removeClass("ui-state-hover");
+        
+    });
+}
+
+
+document.register('x-button',{
+  prototype: proto
+}) 
+})();
+</script>	
+	
+	
+	<button is="x-button" data-icon-primary="ui-icon-trash">x-button looks like a jquery-ui button</button>
+	<button is="x-button" data-icon-primary="ui-icon-disk">save</button>
+	<button is="x-button" >hike!</button>
+
+</body>
+</html>

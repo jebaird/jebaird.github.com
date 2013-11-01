@@ -36,6 +36,12 @@ video{
 	max-width: 100%;
 }
 
+code {
+	border: 1px solid #ddd;
+	background-color: #f8f8f8;
+	padding: 0px .3em;
+}
+
 pre {
 	background-color: #f8f8f8;
 	border: 1px solid #ddd;
@@ -44,11 +50,13 @@ pre {
 	padding: .5em .8em;
 	border-radius: 2px;
 }
-
-p > code {
-	border: 1px solid #ddd;
-	background-color: #f8f8f8;
+pre code {
+	border: 1px none #ddd;
+	background-color: transparent;
+	padding: 0px;
 }
+
+
 
 a:hover{
 	text-decoration: none;
@@ -286,3 +294,30 @@ html .sidebar .about .two.columns{
 .pagination .pagination-next{
 	float: right;
 } 
+
+/*
+ * editor 
+ */
+.jb-fiddle-editor{
+	max-height: 500px;
+	overflow: scroll;
+	position: relative;
+}
+
+.jb-fiddle-editor:hover:after{
+	content: "Edit the source";
+	background: rgba(0,0,0,0.7);
+	padding: 1em 2em;
+	color: #fff;
+	font-weight: bold;
+	top: 0px;
+	right: 0px;
+	position: absolute;
+}
+.jb-fiddle-editor code:focus{
+	outline: none;
+}
+
+.jb-fiddle-display{
+	height: 250px;
+}

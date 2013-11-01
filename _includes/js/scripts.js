@@ -49,6 +49,13 @@ function drawHeader( options ){
 }
 requestAnimFrame( drawHeader );
 
+
+var a = document.querySelectorAll("a[title='jebaird.fiddle-iframe']"),
+	i = a.length;
+while( i-- ){
+	jebaird.fiddle( a[ i ] );
+}
+
 //debounced
 var resizeTimer = null;
 window.onresize = function(){
