@@ -36,6 +36,12 @@ video{
 	max-width: 100%;
 }
 
+code {
+	border: 1px solid #ddd;
+	background-color: #f8f8f8;
+	padding: 0px .3em;
+}
+
 pre {
 	background-color: #f8f8f8;
 	border: 1px solid #ddd;
@@ -44,11 +50,13 @@ pre {
 	padding: .5em .8em;
 	border-radius: 2px;
 }
-
-p > code {
-	border: 1px solid #ddd;
-	background-color: #f8f8f8;
+pre code {
+	border: 1px none #ddd;
+	background-color: transparent;
+	padding: 0px;
 }
+
+
 
 a:hover{
 	text-decoration: none;
