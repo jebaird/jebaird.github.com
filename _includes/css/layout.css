@@ -286,3 +286,14 @@ html .sidebar .about .two.columns{
 .pagination .pagination-next{
 	float: right;
 } 
+
+/*
+ * editor 
+ */
+.jb-fiddle-editor {
+	max-height: 500px;
+	overflow: scroll;
+}
+.jb-fiddle-display{
+	height: 350px;
+}
