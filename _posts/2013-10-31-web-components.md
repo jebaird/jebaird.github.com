@@ -44,6 +44,8 @@ Before we get started, most of these demo's should work in chrome you have the f
 
 A new part of the HTML5 spec is the `<template></template>` tag. It provides some very basic tempting functionality.
 
+### Template Demo
+
 [view the template demo](/demos/2013-10-31-web-components/template/index.html "jebaird.fiddle-iframe")
 
 ### Highlights
