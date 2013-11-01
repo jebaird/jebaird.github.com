@@ -306,10 +306,10 @@ html .sidebar .about .two.columns{
 	right: 0px;
 	position: absolute;
 }
-.jb-fiddle-editor:hover:after code:focus{
-	display: none:
+.jb-fiddle-editor code:focus{
+	outline: none;
 }
 
 .jb-fiddle-display{
-	height: 350px;
+	height: 250px;
 }

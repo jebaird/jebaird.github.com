@@ -50,10 +50,10 @@ A new part of the HTML5 spec is the `<template></template>` tag. It provides som
 
 ### Highlights
 
-1. The template's contents are not rendered until its activated. Meaning
-2. Assets(images,script,media, etc) are not loaded until the template is inserted into the dom
-3. The template's content is excluded from the DOM, so if you did `document.getElementById('template')` the template's content wouldn't not show up as `.childNodes`
-4. `<content></content>` acts as a "projection" spot if the template is rendered into a shadow root
+* The template's contents are not rendered until its activated. Meaning
+* Assets(images,script,media, etc) are not loaded until the template is inserted into the dom
+* The template's content is excluded from the DOM, so if you did `document.getElementById('template')` the template's content wouldn't not show up as `.childNodes`
+* `<content></content>` acts as a "projection" spot if the template is rendered into a shadow root
 
 
 ### Gotchas
@@ -139,7 +139,7 @@ Also its important to note if your extending a native element, you will need to 
 
 If I have a custom element that I would like to export to another app, now how do I share it and or include it on my page? The answer is HTMLImports. Its via a link tag, `<link rel="import" href="my-botton.html">`. Its works very similar as you would include javascript files in HTML documents. As of Oct. '13 it only works in chrome canary. Polymer and x-tags have a polly-fill for this feature since its the least supported of the four features that make up web components. You might find this [stackoverflow](http://stackoverflow.com/questions/17612405/import-html-document-using-html-link-rel) post useful. 
 
-But the gist of most polly-fills, are they search for all the link tags that have the rel attr equal to input an create an XHR request and do a `document.write()` with the contents of the file to the DOM. That way the scripts are able to be parsed by the browser.
+But the gist of most polly-fills, are they search for all the link tags that have the rel attr equal to import and create an XHR request and do a `document.write()` with the contents of the file to the DOM. That way the scripts are able to be parsed by the browser.
 
 
 ## Poly-fills and frameworks
@@ -160,12 +160,12 @@ But the gist of most polly-fills, are they search for all the link tags that hav
 
 ## Further Reading and References
 
-* http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/
-* http://blog.teamtreehouse.com/working-with-shadow-dom
-* http://www.polymer-project.org/platform/shadow-dom.html 
-* http://www.sitepoint.com/html5-template-tag/
-* http://www.html5rocks.com/en/tutorials/webcomponents/customelements/
-* http://www.chromium.org/blink/web-components
-* http://www.polymer-project.org/
-* http://www.sitepoint.com/the-basics-of-the-shadow-dom/
-* http://www.html5rocks.com/en/tutorials/webcomponents/template/
+* [http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/](http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/)
+* [http://blog.teamtreehouse.com/working-with-shadow-dom](http://blog.teamtreehouse.com/working-with-shadow-dom)
+* [http://www.polymer-project.org/platform/shadow-dom.html](http://www.polymer-project.org/platform/shadow-dom.html)
+* [http://www.sitepoint.com/html5-template-tag/](http://www.sitepoint.com/html5-template-tag/)
+* [http://www.html5rocks.com/en/tutorials/webcomponents/customelements/](http://www.html5rocks.com/en/tutorials/webcomponents/customelements/)
+* [http://www.chromium.org/blink/web-components](http://www.chromium.org/blink/web-components)
+* [http://www.polymer-project.org/](http://www.polymer-project.org/)
+* [http://www.sitepoint.com/the-basics-of-the-shadow-dom/](http://www.sitepoint.com/the-basics-of-the-shadow-dom/)
+* [http://www.html5rocks.com/en/tutorials/webcomponents/template/](http://www.html5rocks.com/en/tutorials/webcomponents/template/)
