@@ -49,7 +49,7 @@
 					var content = (this.contentWindow || this.contentDocument);
 					//setup the event handlers, use contentebale 
 					//TODO: figure out how to get the whole content including the <html> tag
-					self._editorSetup(content.document.body.innerHTML)
+					self._editorSetup(content.document.body.innerHTML.trim())
 				})
 				
 				this._element.parentNode.insertBefore(iframe,e);
@@ -65,7 +65,7 @@
 				
 				this.bind(code, "input", function(e){
 					//iframe
-					setIframeContent(iframe, this.innerText)
+					setIframeContent(iframe, this.innerText )
 				})
 				
 				editor.classList.add("jb-fiddle-editor");
