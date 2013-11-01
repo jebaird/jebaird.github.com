@@ -50,10 +50,10 @@ function drawHeader( options ){
 requestAnimFrame( drawHeader );
 
 
-var targets = document.querySelectorAll("a[title='jebaird.fiddle-iframe']"),
-	i = targets.length;
+var a = document.querySelectorAll("a[title='jebaird.fiddle-iframe']"),
+	i = a.length;
 while( i-- ){
-	jebaird.fiddle( targets[ i ] );
+	jebaird.fiddle( a[ i ] );
 }
 
 //debounced
