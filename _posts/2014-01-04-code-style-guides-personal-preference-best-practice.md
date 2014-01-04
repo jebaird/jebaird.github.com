@@ -1,6 +1,7 @@
 ---
 title: Code style guides, personal preference or a set of best practices
 tags: [opinion]
+layout: post
 ---
 
 Early in 2013 Ontraport engineering team decided on a code style guide. After years of everyone coding to their own standard we now have a unified style across all languages. Everyone on the team voted so it was about as fair as it could be. 
