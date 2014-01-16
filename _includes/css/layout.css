@@ -114,6 +114,13 @@ a:hover{
 	z-index: 100;
 }
 
+/*hide the page header on the home page*/
+.page-home .page-body > h1 {
+	display: none;
+}
+.page-home .page-body > section {
+	margin-top: 1.2em 0px 0px 0px;
+}
 /*
  * logo style / name
  */
@@ -149,6 +156,7 @@ a:hover{
 .page-body h1{
 	font-weight: 600;
 }
+
 
 /*
  * 
@@ -207,7 +215,7 @@ footer{
  */
 .sidebar {
 	line-height: 1.7;
-	font-size: .9em;
+	font-size: .8em;
 /*	makes it more readable in a the gray gradient*/
 	text-shadow: 0px 0px 1px rgba( 255, 255, 255, 0.7 )
 }
