@@ -14,4 +14,10 @@ You can find me on any of the sites on the web
 * GitHub - [jebaird](http://github.com/jebaird)
 * Meetup - [profile](http://www.meetup.com/iowajs/members/42954292/)
 
+## Fitness Related
+
+* Runkeeper - [profile](http://runkeeper.com/user/jebaird/profile)
+* Citystriders - [profile](http://citystrides.com/users/35)
+* Strava - [profile](http://www.strava.com/athletes/3704230)
+
 
