@@ -10,7 +10,7 @@ stumbled on a couple other useful plugins / tools I would like to share.
 
 ## Fullscreen
 
-I looked for a full screen plugin after being enamored with LightTable's fullscreen feature.
+I looked for a fullscreen plugin after being enamored with [LightTable's](http://www.lighttable.com/) fullscreen feature.
 This plugin hasn't been updated in quite some time but, it still works great. 
 
 ### Installation
