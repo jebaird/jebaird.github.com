@@ -1,5 +1,5 @@
 baseurl: http://jebaird.com
-exclude: ["README.md", "LICENSE.md", "TODO.md", "build", "test"]
+exclude: ["README.md", "LICENSE.md", "TODO.md", "build", "test","_drafts"]
 
 safe: true
 
