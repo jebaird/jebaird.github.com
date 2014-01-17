@@ -1,1 +1,1 @@
-Despite being open sourced, all jebaird.com code and content remain copyright of Jesse Baird.
+Despite being open sourced, all code and content remains copyright of Jesse Baird.
