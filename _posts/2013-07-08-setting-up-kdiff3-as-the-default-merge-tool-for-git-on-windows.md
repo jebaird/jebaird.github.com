@@ -12,12 +12,12 @@ Either add this to your gitconfig:
 	[merge]
 		tool = kdiff3
 	[mergetool "kdiff3"]
-		cmd = \"C:\\\\Program Files (x86)\\\\KDiff3\\\\kdiff3\" $BASE $LOCAL $REMOTE $MERGED
+		cmd = \"C:\\\\Program Files (x86)\\\\KDiff3\\\\kdiff3\" $BASE $LOCAL $REMOTE -o $MERGED
 
 Or run These at the command line:
 
 	git config --global merge.tool kdiff3
-	git config --global mergetool.kdiff3.cmd '"C:\\Program Files (x86)\\KDiff3\\kdiff3" $BASE $LOCAL $REMOTE $MERGED'
+	git config --global mergetool.kdiff3.cmd '"C:\\Program Files (x86)\\KDiff3\\kdiff3" $BASE $LOCAL $REMOTE -o $MERGED'
 	
 
 Now you will be able to resolve your conflicts the command line via
