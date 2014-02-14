@@ -17,7 +17,7 @@ You can find the code [https://github.com/jebaird/win7-chromecast-gadgets](https
 You can download the *.gadget files [here](/media/2014-02-14-chromecast-style-windows7-sidebar-gadgets/chromecast-style-windows7-gadgets.zip).
 
 
-If you have node installed you can clone / download the repo and run `npm install` then `grunt copy` then and the gadget to your desktop like another other gadget. 
+If you have node installed you can clone / download the repo and run `npm install` then `grunt copy`. Now add the gadget to your desktop. 
 
 This is the best way to insure you have the latest version(s).
 
@@ -25,7 +25,7 @@ This is the best way to insure you have the latest version(s).
 
 ![screenshot of the text widget](/media/2014-02-14-chromecast-style-windows7-sidebar-gadgets/text.png)
 
-Allows you to display any text you would like. I've found this quite useful for displaying custom shortcut keys I've added and reminders. 
+Allows you to display any text you would like. I've found this quite useful for displaying new custom shortcut keys I've added for and reminders. 
 
 
 ## Date
