@@ -6,7 +6,7 @@ tags: [windows, projects]
 
 I've had a chromecast for a couple of months now. One of the things that I really like about it is how the time was displayed. So I decided to create a set of windows gadgets that look like they would fit on the default chromecast display. 
 
-![](/media/2014-02-14-chromecast-style-windows7-sidebar-gadgets/chromecast.jpg)
+![the default chomecast display](/media/2014-02-14-chromecast-style-windows7-sidebar-gadgets/chromecast.jpg)
 
 
 You can find the code [https://github.com/jebaird/win7-chromecast-gadgets](https://github.com/jebaird/win7-chromecast-gadgets)
