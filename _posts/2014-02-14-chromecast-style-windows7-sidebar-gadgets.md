@@ -4,20 +4,18 @@ layout: post
 tags: [windows, projects]
 ---
 
-I've had a chromecast for a couple of months now. One of the things that I really like about it is how the time was displayed. So I decided to create a set of windows gadgets that look like they would fit on the default chromecast display. 
+I've had a Google Chromecast for a couple of months, one of the things that I really like about it is how the time was displayed in the bottom left corner. So I decided to create a set of windows sidebar gadgets that look like they would fit on the Chromecast display along with the time. 
 
 ![the default chomecast display](/media/2014-02-14-chromecast-style-windows7-sidebar-gadgets/chromecast.jpg)
 
-
-You can find the code [https://github.com/jebaird/win7-chromecast-gadgets](https://github.com/jebaird/win7-chromecast-gadgets)
+The Chromecast default display when its turned on.
 
 
 ## Installation
 
 You can download the *.gadget files [here](/media/2014-02-14-chromecast-style-windows7-sidebar-gadgets/chromecast-style-windows7-gadgets.zip).
 
-
-If you have node installed you can clone / download the repo and run `npm install` then `grunt copy`. Now add the gadget to your desktop. 
+If you have node installed you can clone / download from [https://github.com/jebaird/win7-chromecast-gadgets](https://github.com/jebaird/win7-chromecast-gadgets). From the target directory run `npm install` then `grunt copy`. Now add the gadget to your desktop. 
 
 This is the best way to insure you have the latest version(s).
 
@@ -25,7 +23,7 @@ This is the best way to insure you have the latest version(s).
 
 ![screenshot of the text widget](/media/2014-02-14-chromecast-style-windows7-sidebar-gadgets/text.png)
 
-Allows you to display any text you would like. I've found this quite useful for displaying new custom shortcut keys I've added for and reminders. 
+Allows you to display any text you would like. I've found this quite useful for displaying custom shortcut keys and or reminders. 
 
 
 ## Date
