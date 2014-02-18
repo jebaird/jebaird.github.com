@@ -34,7 +34,7 @@ This gadget displays the current date in a non nonsense fashion.
 
 ## Weather
 
-![screenshot of the date widget](/media/2014-02-14-chromecast-style-windows7-sidebar-gadgets//weather.png)
+![screenshot of the weather widget](/media/2014-02-14-chromecast-style-windows7-sidebar-gadgets//weather.png)
 
 
 Displays the current weather data from the [open weather map api](http://openweathermap.org/API).
@@ -42,9 +42,9 @@ Displays the current weather data from the [open weather map api](http://openwea
 
 ## Pidglet
 
-![screenshot of the date widget](/media/2014-02-14-chromecast-style-windows7-sidebar-gadgets//pidglet.png)
+![screenshot of the Pidglet widget](/media/2014-02-14-chromecast-style-windows7-sidebar-gadgets//pidglet.png)
 
-Displays a current list of your contacts that are online. Its an alternate display for this [plugin](plugin)
+Displays a current list of your contacts that are online. Its an alternate display for this [plugin](https://code.google.com/p/pidglet/). Some of the code is borrowed from their gadget code.
 
 It depends on this pidgin plugin being installed and working [https://code.google.com/p/pidglet/](https://code.google.com/p/pidglet/) Download and install it before trying to get this gadget to work.
 
