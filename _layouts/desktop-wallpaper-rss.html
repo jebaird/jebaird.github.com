@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-        <title>{{ site.title }} desktop wallpapers</title>
-        <description>{{ site.title }} - {{ site.author.name }}  desktop wallpapers</description>
+        <title>Jesse Baird's wallpaper collection</title>
+        <description>
+            A set of hand picked wallpapers from various sources around the web. 
+            Images prefixed with jebaird- are ones that Jesse Baird took.
+            wallpaper- indicates that the image was downloaded from wallbase.cc
+            All images are property of their owners.
+        </description>
         <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
         <pubDate>{{ site.time | date_to_xmlschema }}</pubDate>
         <ttl>1800</ttl>
-
 {% for img in page.images %}
         <item>
             <title>{{img}}</title>
