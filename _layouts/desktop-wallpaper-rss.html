@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>{{ site.title }} desktop wallpapers</title>
+        <description>{{ site.title }} - {{ site.author.name }}  desktop wallpapers</description>
+        <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
+        <pubDate>{{ site.time | date_to_xmlschema }}</pubDate>
+        <ttl>1800</ttl>
+
+{% for img in page.images %}
+        <item>
+            <title>{{img}}</title>
+            <link>{{site.url}}{{img}}</link>
+            <enclosure url="{{site.url}}{{img}}"/>
+        </item>
+{% endfor %}
+    </channel>
+</rss>
