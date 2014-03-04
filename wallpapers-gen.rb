@@ -15,7 +15,7 @@ Dir.glob("#{path}*") do |item|
 end
 
 
- File.open("#{path}index.md", 'w') { |file| file.write(
+ File.open("#{path}index.xml", 'w') { |file| file.write(
 "---\n
 layout: desktop-wallpaper-rss
 title: desktop-wallpapers
