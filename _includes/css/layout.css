@@ -25,6 +25,7 @@ body{
 a{
 	color: #0059E0;
 	cursor: pointer;
+    text-decoration: none;
 }
 
 img {
@@ -175,7 +176,12 @@ blockquote>:last-child {
     margin-bottom: .5em;
 }
 
-
+.page-body a:hover{
+    color: #90CD1A;
+   /* background: rgba(0,0,0, .03);*/
+    -webkit-transition: color 750ms linear;
+    transition: color 750ms linear;
+}
 /*
  * 
  * article list
