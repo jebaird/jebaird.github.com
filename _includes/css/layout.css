@@ -283,6 +283,8 @@ footer{
 .sidebar li:hover{
 	background-color: rgba(255,255,255, 0.1);
 	border-radius: 3px;
+    -webkit-transition: background-color 750ms linear;
+    transition: background-color 750ms linear;
 }
 
 /*
@@ -290,6 +292,7 @@ footer{
  */
 .sidebar .tags li{
 	display: inline-block;
+    line-height: 1.2;
 }
 /*quickabout - override sleton*/
 html .sidebar .about .two.columns{
