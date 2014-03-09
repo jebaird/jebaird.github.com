@@ -1,0 +1,23 @@
+---
+layout: default
+page-class: page--photo-gallery
+comments: true
+---
+<article class="post">
+
+    {{ content }}
+
+{% for img in page.images %}
+    {% if page.use-echo == true %}
+        <img data-echo="{{site.url}}{{img}}" alt="{{img}}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    {% else %}
+        <img src="{{site.url}}{{img}}" alt="{{img}}">
+    {% endif %}
+    
+{% endfor %}
+
+    {% if page.comments == true %}
+        {% include disqus.html %}
+    {% endif %}
+    
+</article>
