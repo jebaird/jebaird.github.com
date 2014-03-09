@@ -290,6 +290,9 @@ html .sidebar .about .two.columns{
    width: 100px;
 }
 
+.sidebar .about img{
+    margin-top: .5em;
+}
 .sidebar .about p{
 	border-radius: 3px;
 	padding: 0px .3em 0px 0px;
