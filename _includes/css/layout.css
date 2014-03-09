@@ -25,6 +25,7 @@ body{
 a{
 	color: #0059E0;
 	cursor: pointer;
+    text-decoration: none;
 }
 
 img {
@@ -163,14 +164,24 @@ blockquote>:last-child {
 /*
  * page-body all page content is wrapped by this elements
  */
-.page-body {
-	line-height: 2;
+.page-body{
+	line-height: 1.7;
 }
 .page-body h1{
 	font-weight: 600;
 }
+.page-body h1,
+.page-body h2 {
+    line-height: 1.3;
+    margin-bottom: .5em;
+}
 
-
+.page-body a:hover{
+    color: #90CD1A;
+   /* background: rgba(0,0,0, .03);*/
+    -webkit-transition: color 750ms linear;
+    transition: color 750ms linear;
+}
 /*
  * 
  * article list
@@ -182,7 +193,6 @@ blockquote>:last-child {
 }
 .articles h2,
 .articles h2 a {
-    margin-bottom: 0em;
     color: #000;
     font-size: 1.2em;
     text-decoration: none;
@@ -191,23 +201,23 @@ blockquote>:last-child {
 /*
  * posted date
  */
-.articles .meta{
+.post__meta{
     margin-bottom: .5em;
-    font-size: .9em;
+    font-size: .7em;
     color: #696575;
     line-height: 1em;
 }
 
-.articles .meta .label {
+.post__meta .label {
 	padding-left: 0.5em;
 }
-.articles .tags {
+.post__meta .tags {
     margin: 0px !important;
     padding: 0px !important;
     display: inline;
     
 }
-.articles  .tags li {
+.post__meta .tags li {
 	display: inline-block;
 	margin-left: 0.5em;
 }
@@ -273,6 +283,8 @@ footer{
 .sidebar li:hover{
 	background-color: rgba(255,255,255, 0.1);
 	border-radius: 3px;
+    -webkit-transition: background-color 750ms linear;
+    transition: background-color 750ms linear;
 }
 
 /*
@@ -280,12 +292,16 @@ footer{
  */
 .sidebar .tags li{
 	display: inline-block;
+    line-height: 1.2;
 }
 /*quickabout - override sleton*/
 html .sidebar .about .two.columns{
    width: 100px;
 }
 
+.sidebar .about img{
+    margin-top: .5em;
+}
 .sidebar .about p{
 	border-radius: 3px;
 	padding: 0px .3em 0px 0px;

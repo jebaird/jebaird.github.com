@@ -47,6 +47,12 @@ function drawHeader( options ){
 	target.width = document.body.clientWidth;
 	new jebaird.canvasImageRandomizer( target, defaults);
 }
+Echo.init({
+    offset: 0,
+    throttle: 1000
+});
+
+
 requestAnimFrame( drawHeader );
 
 
