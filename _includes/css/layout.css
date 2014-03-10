@@ -87,26 +87,28 @@ blockquote>:last-child {
 	position: relative;
 	z-index: 10;
 	top: 10px;
-	padding: .4em 1em;
+	line-height: 1;
+    padding: .4em 1em;
 	background-color: rgba(255, 255, 255, 0.85);
+
 }
 
 /*header nav*/
 .header nav{
 	display: inline-block;
 	float: left;
-	margin-top: .5em;
+	margin-top: .7em;
 }
-.header nav ul{
-	padding:0px;
-	margin: 0px;
+.header ul{
+	padding:0;
+	margin: 0;
 }
 
-.header nav li{
+.header li{
 	display: inline-block;
 	float: left;
-	padding: 0px 0.40em;
-	font-size: 1.5em;
+	padding: 0 0.40em 0 0;
+	font-size: 1.45em;
 }
 .header nav a{
 	text-decoration: none;
@@ -146,9 +148,9 @@ blockquote>:last-child {
 	padding-right: 25px;
 }
 .logo h1{
-	margin: 0px;
+	margin: 0;
 	display: inline;
-	font-size: 2.5em;
+	font-size: 2.4em;
 }
 .logo a {
 	text-decoration: none;
@@ -163,6 +165,11 @@ blockquote>:last-child {
 	font-weight: lighter;
 }
 
+.logo__tagline {
+    font-size: 0.8em;
+    color: #666;
+    text-align: right;
+}
 /*
  * page-body all page content is wrapped by this elements
  */
@@ -180,9 +187,8 @@ blockquote>:last-child {
 
 .page-body a:hover{
     color: #90CD1A;
-   /* background: rgba(0,0,0, .03);*/
-    -webkit-transition: color 750ms linear;
-    transition: color 750ms linear;
+    -webkit-transition: color 300ms linear;
+    transition: color 300ms linear;
 }
 /*
  * 
