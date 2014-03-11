@@ -5,6 +5,7 @@ page-class: page-tag
 ---
 
 {% for tag in site.tags %}
+<a name="{{ tag | first }}"></a>
 <section class="articles" id="articles-tagged-in-{{ tag | first | cgi_escape }}">
 	<h1>Posts Tagged in &rdquo;{{ tag | first }}&rdquo;<a name="{{ tag | first }}"></a></h1>
 	{% for posts in tag %}

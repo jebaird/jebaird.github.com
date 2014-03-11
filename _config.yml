@@ -9,8 +9,12 @@ owner_name: "Jesse Baird"
 owner_page: "jebaird.com"
 owner_mail: "jebaird@gmail.com"
 
+
+
 title: "jebaird.com"
 slogan: "the personal bog of Jesse Baird"
 url: "/"
+production_url: "http://www.jebaird.com"
+
 
 paginate: 7
