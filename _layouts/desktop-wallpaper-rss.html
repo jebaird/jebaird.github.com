@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
         <title>Jesse Baird's wallpaper collection</title>
@@ -6,16 +5,18 @@
             A set of hand picked wallpapers from various sources around the web. 
             Images prefixed with jebaird- are ones that Jesse Baird took.
             wallpaper- indicates that the image was downloaded from wallbase.cc
-            All images are property of their owners. Windows 7 Theme found here - http://jebaird.com/wallpapers/jebaird-collection.theme
+            All images are property of their owners. Windows 7 Theme found here - {{site.production_url}}/wallpapers/jebaird-collection.theme
         </description>
-        <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
-        <pubDate>{{ site.time | date_to_xmlschema }}</pubDate>
+        <link>{{ site.production_url }}wallpapers/</link>
+        <lastBuildDate>{{ site.time | date_to_rfc822  }}</lastBuildDate>
+        <pubDate>{{ site.time | date_to_rfc822  }}</pubDate>
         <ttl>1800</ttl>
 {% for img in page.images %}
         <item>
             <title>{{img}}</title>
-            <link>{{site.url}}{{img}}</link>
-            <enclosure url="{{site.url}}{{img}}"/>
+            <link>{{site.production_url}}/{{img}}</link>
+            <guid>{{site.production_url}}/{{img}}</guid>
+            <enclosure url="{{site.production_url}}/{{img}}" type="image/*"/>
         </item>
 {% endfor %}
     </channel>
