@@ -174,7 +174,7 @@ blockquote>:last-child {
  * page-body all page content is wrapped by this elements
  */
 .page-body{
-	line-height: 1.7;
+	line-height: 1.9;
 }
 .page-body h1{
 	font-weight: 600;
