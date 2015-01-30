@@ -1,5 +1,5 @@
 ---
-title: Custom date input that accepts different date formats for a default value
+title: Making default values for date inputs easy
 layout: post
 tags: [ projects ]
 ---
