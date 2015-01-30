@@ -65,7 +65,7 @@ a:hover{
 
 blockquote {
 	border-left: 4px solid #DDD;
-	padding: 0 15px;
+	padding: 2em .5em;
 	color: #777;
 }
 
