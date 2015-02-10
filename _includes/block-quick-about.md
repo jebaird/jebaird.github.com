@@ -4,8 +4,8 @@
 	</div>
 	<p class="omega">
 		<strong>Jesse Baird</strong> 
-		is a Web UI Engineer at <a target="_blank" href="http://Ontraport.com?source=jebaird.com">Ontraport</a>
-		When he isn't working Jesse gets his news fix at <a target="_blank" href="http://npr.org">npr.org</a>. 
+		is a Lead Front End Engineer at <a target="_blank" href="http://ontraport.com?source=jebaird.com">Ontraport</a>
+		When he isn't working Jesse gets his news fix at npr. 
 		He also is an avid runner and loves hitting up the bike trails in and around Iowa City, IA. <a href="/about/">more</a>
 	</p>
 </section>					
