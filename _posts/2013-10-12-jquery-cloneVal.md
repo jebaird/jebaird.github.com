@@ -1,10 +1,10 @@
 ---
 layout: post
 title: jQuery cloneVal, automatically copy :input values 
-tags: [jquery, project]
+tags: [jquery, projects]
 ---
 
-It's been awhile since I released a good old fashion jquery plugin. cloneVal targets :inputs on a form and lets you copy/clone the value to one or a set of target :inputs. 
+It's been awhile since I released a good old fashion jQuery plugin. cloneVal targets :inputs on a form and lets you copy/clone the value to one or a set of target :inputs. 
 
 
 * [view the code in action](/demos/2013-10-12-jquery-cloneVal)
