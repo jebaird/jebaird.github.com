@@ -15,7 +15,7 @@ Teresa and I on the Santa Barbara pier in December 2012.
 
 Julia sleeping in the NICU a couple days after she was born. You can read more about her story [here](/2013/05/25/julia-bairds-rough-start.html).
 
-I love being in the great out doors, I'm fortunate enough to live next to a state park that has great hiking / running trails. I love to run. I started about 7 years ago and I haven't stopped since. In the past couple of years I have ran a 3 1/2 marathons and a handful of shorter distance races. I think the year 2013 will be the year I tackle a full marathon or an ultra marathon.
+I love being in the great out doors, I'm fortunate enough to live next to a state park that has great hiking / running trails. I love to run. I started about 7 years ago and I haven't stopped since. In the past couple of years I have ran a 3 1/2 marathons and a handful of shorter distance races.
 
 <iframe width="100%" height="315" src="http://www.youtube.com/embed/d_XgTTgzOHg" frameborder="0" allowfullscreen></iframe>
 This clip of me that was cut together for the [Ontraport Careers](http://ontraportcareers.com?source=jebarid.com "Careers") site.
