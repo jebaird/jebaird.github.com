@@ -7,13 +7,11 @@ body .container {
 
 html {
     background-attachment: fixed;
-    background-image: -webkit-linear-gradient(left,  rgba(255,255,255,1) 60%,rgba(100,100,100,1) 100%);
+    background-image: -webkit-linear-gradient(left,  rgba(255,255,255,1) 75%,rgba(100,100,100,1) 100%);
  /* Chrome10+,Safari5.1+ */
-    background-image: -o-linear-gradient(left,  rgba(255,255,255,1) 60%,rgba(100,100,100,1) 100%);
- /* Opera 11.10+ */
-    background-image: -ms-linear-gradient(left,  rgba(255,255,255,1) 60%,rgba(100,100,100,1) 100%);
+    background-image: -ms-linear-gradient(left,  rgba(255,255,255,1) 75%,rgba(100,100,100,1) 100%);
  /* IE10+ */
-    background-image: linear-gradient(left,  rgba(255,255,255,1) 60%,rgba(100,100,100,1) 100%);
+    background-image: linear-gradient(left,  rgba(255,255,255,1) 75%,rgba(100,100,100,1) 100%);
  /* W3C */
 }
 
@@ -135,14 +133,6 @@ blockquote>:last-child {
     z-index: 100;
 }
 
-/*hide the page header on the home page*/
-.page-home .page-body > h1 {
-    /*display: none;*/
-}
-
-.page-home .page-body > section {
-    margin-top: 1.2em 0px 0px 0px;
-}
 /*
  * logo style / name
  */
