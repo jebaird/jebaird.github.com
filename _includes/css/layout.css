@@ -1,8 +1,8 @@
 html {
     background-attachment: fixed;
-    background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 75%,#646464 100%); /* Chrome10+,Safari5.1+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #ffffff 75%,#646464 100%); /* IE10+ */
-    background: radial-gradient(ellipse at center,  #ffffff 75%,#646464 100%); /* W3C */
+    background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 87%,#646464 100%); /* Chrome10+,Safari5.1+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #ffffff 87%,#646464 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #ffffff 87%,#646464 100%); /* W3C */
 }
 
 body {
@@ -88,9 +88,22 @@ ul ul, ul ol, ol ol, ol ul {
     margin-bottom: 0;
 }
 
+table {
+    width: 100%;
+    max-width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: .25em .6em;
+}
+th {
+    border-bottom: 1px solid #ddd;
+}
 
 tbody tr:nth-child(odd) {
-    background-color: #ccc;
+    background-color: #f8f8f8;
 }
 
 
@@ -257,7 +270,7 @@ tbody tr:nth-child(odd) {
 
 /*post*/
 .post h2 {
-    border-bottom: 1px solid #E4E4E7;
+    border-bottom: 1px solid #ddd;
 }
 
 
