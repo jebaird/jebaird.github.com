@@ -1,10 +1,8 @@
 html {
     background-attachment: fixed;
-    background-image: -webkit-linear-gradient(left,  rgba(255,255,255,1) 75%,rgba(100,100,100,1) 100%);
- /* Chrome10+,Safari5.1+ */
-    background-image: -ms-linear-gradient(left,  rgba(255,255,255,1) 75%,rgba(100,100,100,1) 100%);
- /* IE10+ */
-    background-image: linear-gradient(left,  rgba(255,255,255,1) 75%,rgba(100,100,100,1) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 75%,#646464 100%); /* Chrome10+,Safari5.1+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #ffffff 75%,#646464 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #ffffff 75%,#646464 100%); /* W3C */
 }
 
 body {
@@ -326,7 +324,7 @@ footer {
     display: inline-block;
     line-height: 1.2;
 }
-/*quickabout - override sleton*/
+/*quickabout - override skeleton*/
 html .sidebar .about .two.columns {
     width: 100px;
 }
@@ -342,10 +340,9 @@ html .sidebar .about .two.columns {
     padding-left: 1em;
 }
 
-/*
- * pager
- */
-
+/* pager buttons at the bottom of lists of posts
+==================================================
+*/
 .pagination {
     list-style: none;
     padding: 0px;
@@ -421,7 +418,7 @@ html .sidebar .about .two.columns {
     html {
         background-image: none;
     }
-    
+
     /*make the body the max width of the screen*/
      .eleven.columns.page-body {
 
