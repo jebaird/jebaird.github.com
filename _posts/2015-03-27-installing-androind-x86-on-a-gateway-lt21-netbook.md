@@ -13,6 +13,7 @@ A few years back I jumped on the netbook craze and bought the Gateway LT21. I wa
 
 Booting off the live cd is a breeze. But I had to jump through some hoops to get it to install to the hard drive. The following are the steps I used to install Android x86 to my netbook's hard drive / ssd.
 
+1. Download the live cd image from [android-x86.org](http://www.android-86.org). I used the 4.4 kitkat version.
 1. On windows I used [rufus](https://rufus.akeo.ie/) to transfer the live cd image on to the hard drive.
 
 1. I used [easeUS partition master](http://www.easeus.com/partition-manager/epm-free.html) to shrink the size of the partition down to 450 megs
