@@ -417,6 +417,11 @@ html .sidebar .about .two.columns {
 
 @media only screen and (max-width: 767px) {
 
+    /*dont show the gray gradient unless "desktop" size, distracts from readability*/
+    html {
+        background-image: none;
+    }
+    
     /*make the body the max width of the screen*/
      .eleven.columns.page-body {
 
