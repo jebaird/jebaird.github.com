@@ -1,5 +1,5 @@
 ---
-layout: nil
+layout: null
 ---
 {% capture include_to_scssify %}
     {% include css/normalize.css %}
