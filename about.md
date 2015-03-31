@@ -5,7 +5,7 @@ permalink: /about/
 page-class: page-about
 ---
 
-Hey there! My name is Jesse Baird. I was born and raised in Iowa. I'm currently living in Iowa City, IA with my wife Teresa, our daughter Julia and our cat, Ace. I currently work for [Ontraport](http://ontraport.com?source=jebarid.com "Ontraport.com") as a Senior Web UI Engineer.
+Hey there! My name is Jesse Baird. I was born and raised in Iowa. I'm currently living in Iowa City, IA with my wife Teresa, our daughter Julia and our cat, Ace. I currently work for [Ontraport](http://ontraport.com?source=jebarid.com "Ontraport.com") as a Lead Front End Engineer.
 
 ![Jesse and Teresa on the Santa Barbara pier](/media/family.jpg)
 
