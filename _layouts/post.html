@@ -3,8 +3,15 @@ layout: default
 page-class: page-post
 comments: true
 meta: true
+# crosspost:  crosspost: "[ONTRAPORT's engineering blog](http://blog.ontraport.com/engineering/developers-must-always-evolve)"
 ---
 <article class="post">
+
+    {% if page.crosspost %}
+
+          {{"_&nbsp;&nbsp;&nbsp;&nbsp; This post originally appeared on " | append: page.crosspost | append: ". I've cross-posted it here for posterity._"  |  markdownify }}
+    
+    {% endif %}
 
     {{ content }}
 
