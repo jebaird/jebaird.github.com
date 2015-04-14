@@ -7,5 +7,5 @@ layout: null
     {% include css/layout.css %}
     {% include css/layout-tag.css %}
     {% include css/print.css %}
-    {% endcapture %}
-{{ include_to_scssify | scssify }}
+{% endcapture %}
+{{ include_to_scssify | scssify | strip_newlines }}
