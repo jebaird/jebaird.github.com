@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" class="{{ page.page-class }}">
 	<head>
+		<script>
+			/*!
+			loadCSS: load a CSS file asynchronously.
+			[c]2014 @scottjehl, Filament Group, Inc.
+			Licensed MIT
+			*/
+			function loadCSS(f,b,g,c){var a=window.document.createElement("link");b=b||window.document.getElementsByTagName("script")[0];var e=window.document.styleSheets;a.rel="stylesheet";a.href=f;a.media="only x";c&&(a.onload=c);b.parentNode.insertBefore(a,b);a.onloadcssdefined=function(b){for(var c,d=0;d<e.length;d++)e[d].href&&e[d].href===a.href&&(c=!0);c?b():setTimeout(function(){a.onloadcssdefined(b)})};a.onloadcssdefined(function(){a.media=g||"all"});return a};
+			</script>
 		<title>{{ page.title }} &ndash; {{ site.owner_name }}</title>
 		<meta name="viewport" content="width=device-width, minimum-scale=1.0">
 		<meta charset="UTF-8">
@@ -17,7 +25,12 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
 
 		<link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen"/>
-		<link rel="stylesheet" href="/css/print.css" type="text/css" media="print"/>
+		
+		<script>
+			loadCSS('/css/print.css');
+		</script>
+		<noscript><link rel="stylesheet" href="/css/print.css" type="text/css" media="print"/></noscript>
+		
 		<body>
 			<canvas id="header-graphic" width="1000" height="100"></canvas>
 			<div class="row header">
