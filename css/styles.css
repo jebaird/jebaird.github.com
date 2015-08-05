@@ -2,7 +2,6 @@
 layout: null
 ---
 {% capture include_to_scssify %}
-    {% include css/normalize.css %}
     {% include css/skeleton.css %}
     {% include css/layout.css %}
 {% endcapture %}
