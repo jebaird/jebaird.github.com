@@ -24,8 +24,16 @@
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
         <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
 
-		<link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen"/>
-		
+		<!-- <link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen"/> -->
+		<style>
+			{% capture include_to_scssify %}
+			    {% include css/skeleton.css %}
+			    {% include css/layout.css %}
+			{% endcapture %}
+			{{ include_to_scssify | scssify | strip_newlines }}
+		</style>
+
+
 		<script>
 			loadCSS('/css/print.css');
 		</script>
