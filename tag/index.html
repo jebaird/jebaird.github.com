@@ -4,15 +4,6 @@ title: Tags
 page-class: page-tag
 ---
 
-<style type="text/css">
-    .page-tag .articles {
-        opacity: 0.2;
-    }
-    .page-tag .articles.active {
-        opacity: 1;
-    }
-</style>
-
 {% for tag in site.tags %}
 <a name="{{ tag | first }}"></a>
 <section class="articles" id="articles-tagged-in-{{ tag | first | cgi_escape }}">
