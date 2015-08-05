@@ -2,7 +2,6 @@
 layout: null
 ---
 {% capture include_to_scssify %}
-    {% include css/skeleton.css %}
-    {% include css/layout.css %}
+    {% include css/print.css %}
 {% endcapture %}
 {{ include_to_scssify | scssify | strip_newlines }}
