@@ -1,5 +1,5 @@
 ---
-title: abstractions
+title: Abstractions
 tags: [ opinion ]
 layout: post
 ---
