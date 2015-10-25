@@ -14,7 +14,7 @@ In the past few months, I discovered these quotes
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-In general I've felt that this statement is very true. We build frameworks and libraries that help us to solve problems only once.
+In general I've felt that these statements are very true. We build frameworks and libraries that help us to solve problems only once.
 
 In a recent project at ONTRAPORT, I was able to use web components in production for the first time. So far it has turned out pretty good. The components are encapsulated pieces or units of code that play really nicely together and fit into our current infrastructure pretty well. 
 
