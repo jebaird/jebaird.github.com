@@ -13,6 +13,7 @@ You can find me on any of the sites on the web
 * Google Plus - [jebaird](https://plus.google.com/109964193899575032374/posts)
 * GitHub - [jebaird](http://github.com/jebaird)
 * Meetup - [profile](http://www.meetup.com/iowajs/members/42954292/)
+* css weekly - [supporters](http://css-weekly.com/supporters/#JesseBaird)
 
 ## Fitness Related
 
