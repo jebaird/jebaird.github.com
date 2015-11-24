@@ -29,3 +29,5 @@ We developers saw that all four words had similar meaning decided to combine the
 
 I think the core  problem was that we didn't document and or communicate why we created this abstraction for the work love. I don't think abstractions are bad. But I think we need to be careful about how we try to relate objects and concepts together. If we do decide they are similar enough we should communicate it more that you did with your first girl / boy friend. Document your code, email every three times, and call people out in code review. Hopefully development process will help and curate the definition of the abstractions you make. 
 
+
+Thanks to [Travis Fox](http://www.kinixcreative.com/) and Steven Schneider for their feedback on this post.
