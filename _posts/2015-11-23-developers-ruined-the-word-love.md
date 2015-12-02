@@ -1,6 +1,7 @@
 ---
 title: Developers Ruined the English definition of Love
 layout: post
+tags: [ opinion ]
 ---
 
 A friend of my recently sent me this video
