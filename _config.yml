@@ -3,7 +3,7 @@ exclude: ["README.md", "LICENSE.md", "TODO.md", "build", "test","_drafts","*.rb"
 
 safe: true
 
-markdown: rdiscount
+markdown: kramdown
 
 owner_name: "Jesse Baird"
 owner_page: "jebaird.com"
