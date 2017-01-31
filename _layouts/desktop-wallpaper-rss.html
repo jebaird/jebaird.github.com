@@ -15,10 +15,15 @@
 {% for img in page.images %}
         <item>
             <title>{{img}}</title>
-            <link>{{site.production_url}}/{{img}}</link>
+            <description>
+                <![CDATA[
+            <a href="{{site.production_url}}/{{img}}"><img src="{{site.production_url}}/{{img}}"></a>]]>
+            </description>
+
+            
             <guid>{{site.production_url}}/{{img}}</guid>
             <enclosure url="{{site.production_url}}/{{img}}" type="image/*"/>
-            <link>{{site.production_url}}/{{img}}</link>
+            
         </item>
 {% endfor %}
     </channel>
