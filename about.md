@@ -15,7 +15,7 @@ I love being in the great out doors, I'm fortunate enough to live next to a numb
 <img alt="Rachel, Cater and I" src="/media/jesse-rachel-carter.jpg">
 
 
-I currently work for [Ontraport](http://ontraport.com?source=jebarid.com "Ontraport.com") as a Lead Software Engineer.
+I currently work for [Ontraport](http://ontraport.com?source=jebarid.com "Ontraport.com") as a Lead Software Engineer. Where I work to develop and maintain our core front end code base.
 
 <iframe width="100%" height="315" src="http://www.youtube.com/embed/d_XgTTgzOHg" frameborder="0" allowfullscreen></iframe>
 This clip of me that was cut together for the [Ontraport Careers](http://ontraportcareers.com?source=jebarid.com "Careers") site.
