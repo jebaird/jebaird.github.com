@@ -5,15 +5,14 @@ permalink: /about/
 page-class: page-about
 ---
 
-Hey there! My name is Jesse Baird. I was born and raised in Iowa. I'm currently living in Iowa City, IA with my daughter Julia and our cat, Ace. I currently work for [Ontraport](http://ontraport.com?source=jebarid.com "Ontraport.com") as a Lead Front End Engineer.
+Hey there! My name is Jesse Baird. I was born and raised in Iowa. I'm currently living in Iowa City, IA with my daughter Julia, my girlfriend Rachel and her son Carter. I currently work for [Ontraport](http://ontraport.com?source=jebarid.com "Ontraport.com") as a Lead Software Engineer.
 
-![Jesse and Teresa on the Santa Barbara pier](/media/family.jpg)
+![Jesse and his daughter Julia](media/jesse-and-julia.jpg)
 
-![sleeping julia](/media/2013-05-25-julia-bairds-rough-start/sleeping-juila.jpg)
+![Rachel, Cater and I](media/jesse-rachel-carter.jpg)
 
-Julia sleeping in the NICU a couple days after she was born. You can read more about her story [here](/2013/05/25/julia-bairds-rough-start.html).
 
-I love being in the great out doors, I'm fortunate enough to live next to a state park that has great hiking / running trails. I love to run. I started about 10 years ago and I haven't stopped since. In the past couple of years I have ran a 3 1/2 marathons and a handful of shorter distance races.
+I love being in the great out doors, I'm fortunate enough to live next to a number parks that have great hiking / running trails. I love to run. I started about 10 years ago and I haven't stopped since. In the past couple of years I have ran a 3 1/2 marathons and a handful of shorter distance races.
 
 <iframe width="100%" height="315" src="http://www.youtube.com/embed/d_XgTTgzOHg" frameborder="0" allowfullscreen></iframe>
 This clip of me that was cut together for the [Ontraport Careers](http://ontraportcareers.com?source=jebarid.com "Careers") site.
