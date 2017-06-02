@@ -9,10 +9,10 @@ Hey there! My name is Jesse Baird. I was born and raised in Iowa. I'm currently 
 
 I love being in the great out doors, I'm fortunate enough to live next to a number parks that have great hiking / running trails. I love to run. I started about 10 years ago and I haven't stopped since. In the past couple of years I have ran a 3 1/2 marathons and a handful of shorter distance races.
 
-<img alt="Jesse and his daughter Julia" src="media/jesse-and-julia.jpg">
+<img alt="Jesse and his daughter Julia" src="/media/jesse-and-julia.jpg">
 
 
-<img alt="Rachel, Cater and I" src="media/jesse-rachel-carter.jpg">
+<img alt="Rachel, Cater and I" src="/media/jesse-rachel-carter.jpg">
 
 
 I currently work for [Ontraport](http://ontraport.com?source=jebarid.com "Ontraport.com") as a Lead Software Engineer.
