@@ -7,10 +7,10 @@ page-class: page-about
 
 Hey there! My name is Jesse Baird. I was born and raised in Iowa. I'm currently living in Iowa City, IA with my daughter Julia, my girlfriend Rachel and her son Carter. I currently work for [Ontraport](http://ontraport.com?source=jebarid.com "Ontraport.com") as a Lead Software Engineer.
 
-<img alt="Jesse and his daughter Julia" src="/media/jesse-and-julia.jpg">
+<img alt="Jesse and his daughter Julia" src="media/jesse-and-julia.jpg">
 
 
-<img alt="Rachel, Cater and I" src="/media/jesse-rachel-carter.jpg">
+<img alt="Rachel, Cater and I" src="media/jesse-rachel-carter.jpg">
 
 
 
