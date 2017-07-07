@@ -15,11 +15,11 @@
 {% for img in page.images %}
         <item>
             <title>{{img}}</title>
-            <description><![CDATA[<a href="{{site.production_url}}/{{img}}"><img src="{{site.production_url}}/{{img}}"></a>]]></description>
-            <link>{{site.production_url}}/{{img}}</link>
-            <guid>{{site.production_url}}/{{img}}</guid>
-            <enclosure url="{{site.production_url}}/{{img}}" type="image/*"/>
             <pubDate>{{ site.time | date_to_rfc822  }}</pubDate>
+            <description><![CDATA[<a href="{{site.production_url}}/{{img}}"><img src="{{site.production_url}}/{{img}}"></a>]]></description>
+            <guid>{{site.production_url}}/{{img}}</guid>
+            <link rel="enclosure" type="image/*">{{site.production_url}}/{{img}}</link>
+            <enclosure url="{{site.production_url}}/{{img}}" type="image/*"/>
             
         </item>
 {% endfor %}
