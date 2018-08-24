@@ -8,7 +8,7 @@ Staying update is hard. From taking the time to read everyday to finding decent 
 
 ### Newsletters
 
-[JavaScript Weekly](https://javascriptweekly.com//source=jebaird.com)
+[JavaScript Weekly](https://javascriptweekly.com/source=jebaird.com)
 
 [HTML5 Weekly](http://html5weekly.com/?source=jebaird.com)
 
