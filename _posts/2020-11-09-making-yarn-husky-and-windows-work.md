@@ -19,10 +19,10 @@ You can reinstall it using 'npm install husky --save-dev' or delete this hook
 
 I started doing some digging and found that when husky would try to run these commands it would strip out the `\` slash in the path. Here are the two helpful github issues I found.
 
-* https://github.com/typicode/husky/issues/749
-* https://github.com/typicode/husky/issues/720
+* [https://github.com/typicode/husky/issues/749](https://github.com/typicode/husky/issues/749)
+* [https://github.com/typicode/husky/issues/720]()
 
-The credit for this next part goes to https://github.com/typicode/husky/issues/749#issuecomment-691531840
+The credit for this next part goes to [https://github.com/typicode/husky/issues/749#issuecomment-691531840](https://github.com/typicode/husky/issues/749#issuecomment-691531840)
 
 > I am closing this issue because this isn't an issue of husky's code. I've already notified Yarn team about it: yarnpkg/yarn#8340
 Until they fix this, you can use do this if you are facing the same issue:
