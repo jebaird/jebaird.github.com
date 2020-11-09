@@ -51,6 +51,7 @@ if (process.platform === 'win32') {
 This fixes the issue `node_modules.binhusky-run: command not found` But any commands listed in the `lint-staged` section in `package.json` would fail. 
 
 I needed to change this
+
 ```
   "lint-staged": {
     "relative": true,
@@ -65,9 +66,9 @@ I needed to change this
       ]
     }
   }
-``
+```
 
-to
+**to**
 
 ```
   "lint-staged": {
