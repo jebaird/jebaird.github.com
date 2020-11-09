@@ -27,7 +27,7 @@ I started doing some digging and found that when husky would try to run these co
 
 > Until they fix this, you can use do this if you are facing the same issue:
 
-Create fix-husky.js file in project's root with following content:
+> Create fix-husky.js file in project's root with following content:
 ```
 const fs = require('fs');
 
@@ -45,6 +45,8 @@ if (process.platform === 'win32') {
 
 ``
 > Run it once after installing husky with node fix-husky.js (you can even save it as package.json script).
+
+> https://github.com/typicode/husky/issues/749#issuecomment-691531840
 
 This fixes the issue `node_modules.binhusky-run: command not found` But any commands listed in the `lint-staged` section in `package.json` would fail. 
 
