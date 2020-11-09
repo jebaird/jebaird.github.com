@@ -24,10 +24,8 @@ I started doing some digging and found that when husky would try to run these co
 
 
 > I am closing this issue because this isn't an issue of husky's code. I've already notified Yarn team about it: yarnpkg/yarn#8340
-
-> Until they fix this, you can use do this if you are facing the same issue:
-
-> Create fix-husky.js file in project's root with following content:
+Until they fix this, you can use do this if you are facing the same issue:
+Create fix-husky.js file in project's root with following content:
 ```
 const fs = require('fs');
 
