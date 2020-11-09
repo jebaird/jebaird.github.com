@@ -22,6 +22,7 @@ I started doing some digging and found that when husky would try to run these co
 * https://github.com/typicode/husky/issues/749
 * https://github.com/typicode/husky/issues/720
 
+The credit for this next part goes to https://github.com/typicode/husky/issues/749#issuecomment-691531840
 
 > I am closing this issue because this isn't an issue of husky's code. I've already notified Yarn team about it: yarnpkg/yarn#8340
 Until they fix this, you can use do this if you are facing the same issue:
@@ -41,10 +42,8 @@ if (process.platform === 'win32') {
   fs.writeFileSync('.git/hooks/husky.sh', fixedHuskyScript);
 }
 
-``
+```
 > Run it once after installing husky with node fix-husky.js (you can even save it as package.json script).
-
-> https://github.com/typicode/husky/issues/749#issuecomment-691531840
 
 This fixes the issue `node_modules.binhusky-run: command not found` But any commands listed in the `lint-staged` section in `package.json` would fail. 
 
