@@ -1,5 +1,5 @@
 
-# Supercharge Your Git Workflow: A Guided Tour of My Favorite Aliases
+## Supercharge Your Git Workflow: A Guided Tour of My Favorite Aliases
 
 If you're a developer, you probably spend a significant amount of time in your terminal typing `git` commands. `git status`, `git add .`, `git commit -m "..."`, `git push`. Over and over. While these commands are powerful, they can also be verbose and repetitive.
 
