@@ -1,8 +1,5 @@
 html {
     background-attachment: fixed;
-    background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 87%,#646464 100%); /* Chrome10+,Safari5.1+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #ffffff 87%,#646464 100%); /* IE10+ */
-    background: radial-gradient(ellipse at center,  #ffffff 87%,#646464 100%); /* W3C */
 }
 
 body {
