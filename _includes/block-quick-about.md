@@ -4,8 +4,6 @@
 	</div>
 	<p class="omega">
 		<strong>Jesse Baird</strong> 
-		is a Senior Software Engineer currently looking for a new position.
-		When he isn't working Jesse gets his news fix at npr. 
-		He also is an avid runner and loves hitting up the bike trails in and around Iowa City, IA. <a href="/about/">more</a>
+		is a Principal Software Engineer. Who enjoys dry humor, long walks on the beach and deep coversations. <a href="/about/">more</a>
 	</p>
 </section>					
