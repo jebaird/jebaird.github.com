@@ -7,24 +7,24 @@ tags : [AI, Opinion]
 
 I've been a software engineer for two decades, so the current buzz around AI feels pretty familiar. Every few years, a new technology emerges that brings a mix of excitement and apprehension. As I’ve listened to the different opinions on AI, I believe it's important to ground the conversation in a few realities from the trenches.
 
-**A tool is just a tool.**
+## A tool is just a tool
 
 In my garage, I have an impact driver, a drill, and totes full of screws. They have been there for years. Not once have I woken up to the sound of them building something on their own. Tools, no matter how advanced, require a skilled hand to guide them. AI is no different. It's a sophisticated instrument, but it won’t replace the critical thinking and problem-solving abilities of an experienced engineer.
 
 
-**Good people will just get better.**
+## Good people will just get better
 
 There's always someone who will be better than you at a specific task. We see it in professional sports all the time. AI isn't a great equalizer that will erase skill differences; it's a powerful tool that will allow already proficient people to push their limits even further. It helps automate the repetitive tasks, freeing up experienced developers to focus on the harder, more architectural challenges.
 
 
-**The fundamentals now matter more, not less.**
+## The fundamentals now matter more, not less
 
 Anyone can use a calculator, but if you don't understand the underlying math, you won't know when the answer just *feels* wrong. It's the same with AI. It can generate code that looks correct on the surface, but an experienced engineer—someone who loves to read code and understands performance, security, and scalability—is the one who can spot the subtle flaws. AI can't replicate the architectural intuition that comes from years of experience. The real value is in being able to critique, guide, and refine what the tool produces.
 
-**Remember: Garbage in, garbage out.**
+## Remember: Garbage in, garbage out
 
 An AI is only as good as the question you ask it. A junior developer might ask a vague question and get a generic, inefficient, or even insecure answer. A senior engineer knows how to provide the right context, define the constraints, and ask the precise question needed to get a high-quality result. The core engineering skill is shifting from just *writing* the code to *specifying the problem* so well that the tool can effectively assist.
 
-**Finally, the unknown is scary.**
+## Finally, the unknown is scary
 
 Some people enjoy that feeling—it's why horror movies exist. It's not my thing, but I get it. As my mother used to say, "You wouldn't jump off a bridge just because your friend told you to." The same applies here. We shouldn't blindly adopt AI, nor should we dismiss it out of fear. The pragmatic path is to figure out where it fits, how we can use it to build better software, and move forward thoughtfully.
