@@ -1,5 +1,5 @@
 --- 
-title: Slow is Smooth, Smooth is Fast: Thinking About A.I. Haste
+title: Slow is Smooth, Smooth is Fast - Thinking About A.I. Haste
 layout: post
 tags: [AI, Opinion]
 ---
