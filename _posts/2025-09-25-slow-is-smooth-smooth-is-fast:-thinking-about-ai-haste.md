@@ -1,10 +1,9 @@
 --- 
-created: 1758827805
-title: Slow is Smooth, Smooth is Fast: Thinking About AI Haste
+
+title: Slow is Smooth, Smooth is Fast: Thinking About A.I. Haste
 layout: post
 tags : [AI, Opinion]
 ---
-
 
 I’ve been tinkering with AI tools a lot lately. AI tools are a constant companion, and I find myself flicking open O365 Copilot for all sorts of little things. The other day, I was staring at a Teams message I needed to reply to. Instead of just writing it, I prompted an AI:
 
